@@ -16,5 +16,9 @@ body {
   border-radius: 12px;
     }
     
-    #icons{}
-    #content{}
+    .icons{
+        list-style-type: none;
+    }
+    #content{
+
+    }
