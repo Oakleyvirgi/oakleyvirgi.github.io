@@ -6,9 +6,19 @@ header {
     text-align: center;
     border-radius: 12px;
 }
-h1,h2,p{
+h1,h2{
     color: #FBFCFD;
     font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: "Helvetica", sans-serif;
+    color:black;
+}
+.text {
+    background-color: #8291A9;
+    border-radius: 12px;
+    
+    
 }
 h1{
     width: 100%;
@@ -16,7 +26,6 @@ h1{
 
 body {
 	background-color: #85ACC0;
-	font-family: "Helvetica", sans-serif;
 	padding: 5px 25px;
 	font-size: 18px;
     margin: 0;
@@ -45,9 +54,11 @@ li{
 
 nav a {
     display: inline-block;
-     color: #FBFCFD;
+     color:black;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
+    background-color: #824670;
+    border-radius: 12px;
 }
 
 nav ul{
