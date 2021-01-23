@@ -38,7 +38,6 @@ body {
   
 }
   
-
 footer {
 	height: 80px;
 	padding-bottom: 10px;
@@ -47,6 +46,7 @@ footer {
 	border-radius: 12px;
     text-align: center;
     font-family: "Helvetica", sans-serif;
+
 }
 li{
     display: block;
