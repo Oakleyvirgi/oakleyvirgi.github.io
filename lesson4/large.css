@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64em) {
+    body{
+        display: flex;
+        flex-direction: column;
+        max-width: 75rem;
+        background-color: red;
+        }
+        li{
+            display: inline-block;
+        }
+        img {
+            display: block;
+            float: left;
+            width: 128px;
+            }    
+}

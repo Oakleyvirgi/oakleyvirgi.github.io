@@ -1,0 +1,122 @@
+
+@media only screen and (max-width: 32.2em) {
+    img {
+      width: 80px;
+      }
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+}
+header {
+	padding-bottom: 40px;
+	background-color: #824670;
+    border: 1px solid #a2708A;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+.headings {
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+h1,h2{
+    color: #FBFCFD;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: "Helvetica", sans-serif;
+    color:black;
+}
+.text, .text2, .text3, .text4 {
+    background-color: #8291A9;
+    border: 1px dashed;
+    padding-bottom: 10px;  
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+}
+h1{
+    width: 100%;
+}
+
+body {
+	background-color: #85ACC0;
+	padding: 5px 25px;
+	font-size: 18px;
+    margin: 0;
+    flex: auto;
+}
+
+.home-flex {
+    display:flex;
+    flex-direction: column;
+  
+}
+  
+footer {
+	height: 80px;
+	padding-bottom: 10px;
+	background-color: #824670;
+	border: 1px solid #a2708A;
+	border-radius: 12px;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+
+}
+li{
+    display: block;
+    }
+
+nav a {
+    display: inline-block;
+     color:black;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    background-color: #824670;
+    border-radius: 12px;
+}
+
+nav ul{
+    list-style:none;
+    text-align: center;
+}
+
+
