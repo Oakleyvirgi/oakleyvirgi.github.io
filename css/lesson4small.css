@@ -65,6 +65,7 @@ h1,h2{
 p{
     font-family: "Helvetica", sans-serif;
     color:black;
+    font-weight: bold;
 }
 .text, .text2, .text3, .text4 {
     background-color: #8291A9;
@@ -72,6 +73,7 @@ p{
     padding-bottom: 10px;  
     border-collapse: separate;
     border-spacing: 15px 50px;
+    padding: 1em;
 }
 h1{
     width: 100%;
