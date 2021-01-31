@@ -17,6 +17,7 @@ p{
 .text {
     background-color: #8291A9;
     border-radius: 12px;
+    padding: 1em;
     
     
 }
@@ -42,7 +43,7 @@ footer {
 	height: 80px;
 	padding-bottom: 10px;
 	background-color: #824670;
-	border: 1px solid #a2708A;
+    border: 1px solid #a2708A;
 	border-radius: 12px;
     text-align: center;
     font-family: "Helvetica", sans-serif;
@@ -54,8 +55,7 @@ li{
 
 nav a {
     display: inline-block;
-     color:black;
-     font-weight: bold;
+     color:white;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
     background-color: #824670;
@@ -69,7 +69,5 @@ nav ul{
 
 img {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+    width: 15%;
   }
