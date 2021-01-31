@@ -55,6 +55,7 @@ li{
 nav a {
     display: inline-block;
      color:black;
+     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
     background-color: #824670;
