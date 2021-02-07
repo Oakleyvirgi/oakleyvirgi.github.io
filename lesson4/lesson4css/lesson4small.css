@@ -31,26 +31,32 @@ header {
 }
 
 
-h1,h2{
+h1{
     color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: black;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 p{
     font-family: "Helvetica", sans-serif;
     color:white;
-    font-weight: bold;
+    
 }
 .text, .text2, .text3, .text4 {
     display: block;
     margin: 10px auto;
-    background-color: #8291A9;
+    background-color: #475766;
     border: 1px dashed;
     padding-bottom: 10px;  
     border-collapse: separate;
     border-spacing: 15px 50px;
     padding: 1em;
     color:white;
+    font-style: italic;
     
 }
 
@@ -92,7 +98,7 @@ nav ul{
 }
 
 nav ul li a.active{
-    background-color:#85ACC0;
+    background-color:#475766;
   }
 
 .nav_bar {
@@ -112,7 +118,7 @@ nav ul li a.active{
 }
 .nav_bar a:hover {
 	color: white;
-	background-color: white;
+	background-color:black;
 }
 .responsive li {
 	display: block;
@@ -136,6 +142,9 @@ footer {
 .school {
     color: white;
     
+}
+.message {
+    font-style: italic;
 }
 #copyright {
     font-family: "Helvetica", sans-serif;
