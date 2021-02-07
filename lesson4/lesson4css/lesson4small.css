@@ -14,7 +14,7 @@ flex-direction: row;
 }
 header {
 	padding-bottom: 40px;
-	background-color: #824670;
+	background-color:#79446A;
     border: 1px solid #a2708A;
     border-radius: 12px;
     font-family: 'Roboto', sans-serif;
@@ -32,13 +32,13 @@ header {
 
 
 h1,h2{
-    color: #FBFCFD;
+    color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 p{
     font-family: "Helvetica", sans-serif;
-    color:black;
+    color:white;
     font-weight: bold;
 }
 .text, .text2, .text3, .text4 {
@@ -70,10 +70,10 @@ body {
 
 nav a {
     display: inline-block;
-     color:black;
+     color: white;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
-    background-color: #824670;
+    background-color: #79446A;
     border-radius: 12px;
 }
 
@@ -107,11 +107,11 @@ nav ul li a.active{
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color:white;
 	font-weight: 700;
 }
 .nav_bar a:hover {
-	color:black;
+	color: white;
 	background-color: white;
 }
 .responsive li {
@@ -119,7 +119,7 @@ nav ul li a.active{
 }
 nav {
 	margin: 0 auto;
-  background-color: #824670;
+  background-color: #79446A;
   border-radius: 15px;
 }
 
@@ -127,13 +127,16 @@ footer {
 	height:fit-content;
     width:auto;
 	padding-bottom: 10px;
-	background-color: #824670;
+	background-color: #79446A;
 	border: 1px solid #a2708A;
 	border-radius: 12px;
     text-align: center;
     font-family: "Helvetica", sans-serif;
 }
 .school {
-    color:black;
+    color: white;
     
 }
+#copyright {
+    font-family: "Helvetica", sans-serif;
+  }
