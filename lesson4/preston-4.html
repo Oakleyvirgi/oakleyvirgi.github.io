@@ -4,60 +4,58 @@
 <head>
     <title>W04 Preston Town Page</title>
     <meta charset="utf-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <meta name="description" content="Assignment for Katherine Campbell in WDD 230: Web Frontend Development I at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/lesson4small.css">
-    <link rel="stylesheet" href="../css/lesson4medium.css">
-    <link rel="stylesheet" href="../css/lesson4large.css">
+    <link rel="stylesheet" href="../lesson4/lesson4css/normalize.css">
+    <link rel="stylesheet" href="../lesson4/lesson4css/lesson4small.css">
+    <link rel="stylesheet" href="../lesson4/lesson4css/lesson4medium.css">
+    <link rel="stylesheet" href="../lesson4/lesson4css/lesson4large.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 </head>
+
 <body>
-    <div class = "home-flex">
+    <div class="home-flex">
         <header>
-           <img src="../images/weather4real.png" alt="Logo">
-           <section class= "headings">
+            <img src="../images/weather4real.png" alt="Logo">
+            <section class="headings">
                 <h1>Weather 4 Real</h1><br>
                 <p>The most accurate weather ever!</p>
-            </section>  
+            </section>
         </header>
         <nav>
-            <div class="dropdown">
-                <button class="dropbtn">Home</button>               
-                </div>
-                <div class="dropdown-content">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="target-audience.html">Preston</a></li>
-                <li><a href="color-scheme.html">Soda Springs</a></li>
-                <li><a href="typography.html">Fish Haven</a></li>
-                <li><a href="typography.html">Storm Center</a></li>
-                <li><a href="typography.html">Gallery</a></li>
+            <ul class="nav_bar">
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Preston</a></li>
+                <li> <a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
             </ul>
-        </div>
-        </nav>
-        <main>
-        <h2>Preston Idaho</h2><br>
-        <div class="text">            
+    </div>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="text">
             <p>Hero w/weather summary</p>
         </div>
-            <div class="text2">
+        <div class="text2">
             <p>5 Day Forecast</p>
-            </div>
-            <div class="text3">
+        </div>
+        <div class="text3">
             <p>Article</p>
-            </div>
-            <div class="text4">
-            <p>Contact information</p> 
-            </div>
-        </main>
-        <footer>
-            <p>&copy;Weather 4 Real | Virgithmar Oakley |<a href="https://www.byui.edu/online"> BYU-I Online
-                    Learning</a><br>
+        </div>
+        <div class="text4">
+            <p>Contact information</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Weather 4 Real | Virgithmar Oakley |<a class = "school"href="https://www.byui.edu/online"> BYU-I Online
+                Learning</a><br>
             Last updated <span id="last_date_modified"></span>
-            <script src="../main.js"></script></p>
-
-        </footer>
+            <span id="dates"></span>
+    </footer>
+    <script src="../lesson4/lesson4js/menu.js"></script>
     </div>
 </body>
 
