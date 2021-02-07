@@ -1,0 +1,19 @@
+@media only screen and (min-width: 40em) and (max-width: 63.99em) {
+ 
+	/*body {
+		display: flex;
+	}*/
+	.nav_bar {
+		display: flex;
+	}
+	.nav_bar li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.nav_bar a {
+		text-align: center;
+	}
+	.nav_bar li:first-child {
+		display: none;
+	}
+}

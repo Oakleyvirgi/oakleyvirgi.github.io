@@ -1,0 +1,30 @@
+@media only screen and (min-width: 64em) {
+   
+	body {
+		display: flex;
+		flex-direction: column;
+		max-width: 75rem;
+	}
+	li {
+		display: inline-block;
+	}
+	img {
+		display: block;
+		float: left;
+		width: 128px;
+	}
+	.nav_bar {
+		display: flex;
+	}
+
+	.nav_bar li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.nav_bar a {
+		text-align: center;
+	}
+	.nav_bar li:first-child {
+		display: none;
+	}
+}

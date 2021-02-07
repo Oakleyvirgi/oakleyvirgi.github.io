@@ -1,0 +1,151 @@
+@media only screen and (max-width: 639px) {
+    body {
+flex-direction: row;
+    }
+}
+    
+     img {
+      height: 80px;
+      width: auto;
+        }
+.home-flex {
+    display:flex;
+    flex-direction: column;
+}
+header {
+	padding-bottom: 40px;
+	background-color:#79446A;
+    border: 1px solid #a2708A;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+  
+}
+.headings {
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+}
+
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: "Helvetica", sans-serif;
+    color:white;
+    
+}
+.text, .text2, .text3, .text4 {
+    display: block;
+    margin: 10px auto;
+    background-color: #475766;
+    border: 1px dashed;
+    padding-bottom: 10px;  
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    padding: 1em;
+    color:white;
+    font-style: italic;
+    
+}
+
+h1{
+    width: 100%;
+}
+
+body {
+    /*display: flex;
+    flex: auto;*/
+	background-color: #85ACC0;
+	padding: 5px 25px;
+	font-size: 18px;
+    margin: 0 auto;
+    
+}
+
+nav a {
+    display: inline-block;
+     color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    background-color: #79446A;
+    border-radius: 12px;
+}
+
+nav ul{
+    list-style:none;
+    text-align: center;
+}
+
+
+.nav_bar li:first-child {
+    display: block;
+}
+
+.nav_bar li {
+	display: none;
+}
+
+nav ul li a.active{
+    background-color:#475766;
+  }
+
+.nav_bar {
+   list-style: none;
+   text-align: center;
+   padding: 0;
+  }
+
+ 
+.nav_bar a {
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	font-weight: 700;
+}
+.nav_bar a:hover {
+	color: white;
+	background-color:black;
+}
+.responsive li {
+	display: block;
+}
+nav {
+	margin: 0 auto;
+  background-color: #79446A;
+  border-radius: 15px;
+}
+
+footer {
+	height:fit-content;
+    width:auto;
+	padding-bottom: 10px;
+	background-color: #79446A;
+	border: 1px solid #a2708A;
+	border-radius: 12px;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+}
+.school {
+    color: white;
+    
+}
+.message {
+    font-style: italic;
+}
+#copyright {
+    font-family: "Helvetica", sans-serif;
+  }
