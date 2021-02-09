@@ -58,6 +58,7 @@ p{
     color:white;
     font-style: italic;
     
+    
 }
 
 h1{
@@ -131,13 +132,15 @@ nav {
 
 footer {
 	height:fit-content;
-    width:auto;
+    
 	padding-bottom: 10px;
 	background-color: #79446A;
 	border: 1px solid #a2708A;
 	border-radius: 12px;
     text-align: center;
     font-family: "Helvetica", sans-serif;
+    flex:100%;
+     
 }
 .school {
     color: white;
@@ -149,3 +152,11 @@ footer {
 #copyright {
     font-family: "Helvetica", sans-serif;
   }
+  main {
+    max-width: 1000px;
+}
+
+footer {
+    max-width: 1000px;
+}
+  

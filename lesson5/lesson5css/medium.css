@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) and (max-width: 63.99em) {
+@media only screen and (min-width: 32.5em) {
  
 	/*body {
 		display: flex;
@@ -15,5 +15,11 @@
 	}
 	.nav_bar li:first-child {
 		display: none;
+	}
+	main {
+		max-width: 1000px;
+	}
+	footer {
+		max-width: 1000px;
 	}
 }

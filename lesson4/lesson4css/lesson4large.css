@@ -27,4 +27,11 @@
 	.nav_bar li:first-child {
 		display: none;
 	}
+	main {
+		max-width: 1000px;
+	}
+
+	footer {
+		max-width: 1000px;
+	}
 }
