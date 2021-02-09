@@ -3,7 +3,7 @@
 	body {
 		display: flex;
 		flex-direction: column;
-		max-width: 75rem;
+	
 	}
 	li {
 		display: inline-block;
@@ -13,7 +13,7 @@
 		float: left;
 		width: 128px;
 	}
-	.nav_bar {
+		.nav_bar {
 		display: flex;
 	}
 
@@ -27,4 +27,11 @@
 	.nav_bar li:first-child {
 		display: none;
 	}
+	main {
+		max-width: 1000px;
+	}
+	footer {
+		max-width: 1000px;
+	}
+	
 }

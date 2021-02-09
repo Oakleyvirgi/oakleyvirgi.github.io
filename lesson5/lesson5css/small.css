@@ -57,7 +57,7 @@ body {
     /*display: flex;
     flex: auto;*/
 	background-color: #85ACC0;
-	padding: 5px 25px;
+	
 	font-size: 18px;
     margin: 0 auto;
     
@@ -119,16 +119,11 @@ nav {
 }
 
 footer {
+    max-width: 1000px;
 	height:fit-content;
-    
-	padding-bottom: 10px;
 	background-color: #79446A;
-	border: 1px solid #a2708A;
-	border-radius: 12px;
     text-align: center;
     font-family: "Helvetica", sans-serif;
-    flex:100%;
-     
 }
 .school {
     color: white;
@@ -145,9 +140,6 @@ footer {
     margin: auto;
 }
 
-footer {
-    max-width: 1000px;
-}
 .article p {
     color: black;
   }
@@ -161,7 +153,8 @@ footer {
 }
 
 #articlePhoto {
-    width: 100%;
+    width: 35%;
+    height: 180px;
   }
 
 .contactInfo {
