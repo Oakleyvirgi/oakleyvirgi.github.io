@@ -21,7 +21,7 @@ header {
     justify-content: center; 
 }
 
-.headings {
+.main_location {
     display:flex;
     flex-direction: column;
     height:fit-content;
