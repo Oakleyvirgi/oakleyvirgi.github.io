@@ -57,19 +57,15 @@ body {
     /*display: flex;
     flex: auto;*/
 	background-color: #85ACC0;
-	
 	font-size: 18px;
     margin: 0 auto;
-    
 }
 
 nav a {
     display: inline-block;
-     color: white;
+    color: white;
     font-family: 'Roboto', sans-serif;
-    padding: 1em;
     background-color: #79446A;
-    border-radius: 12px;
 }
 
 nav ul{
@@ -191,7 +187,7 @@ footer {
     display: block;
 }
 
-#forescastDay {
+#forecastDay {
     background-color:#475766;
     color: white;
     font-family: "Helvetica", sans-serif;
