@@ -142,6 +142,7 @@ footer {
   }
   main {
     max-width: 1000px;
+    margin: auto;
 }
 
 footer {
@@ -228,4 +229,27 @@ h4 {
 .top_part img {
     width: 100%;
     height: auto;
+}
+.summary {
+    position: absolute;
+    background-color:radial-gradient(#eee, #EDF5E1) ;
+    top: 0px;
+    border: 1px solid black;
+    box-shadow: 0 0 30px black;
+    padding: 6px;
+    opacity: .9;
+}
+
+.summary p {
+    color: black;
+    font-weight: bolder;
+}
+
+#map {
+    border: 2px solid black;
+    margin: auto;
+}
+
+#date {
+    padding-top: 6px;
 }
