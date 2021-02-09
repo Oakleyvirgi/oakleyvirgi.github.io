@@ -21,11 +21,6 @@ header {
     justify-content: center; 
 }
 
-.main_location {
-    display:flex;
-    flex-direction: column;
-    height:fit-content;
-}
 .heading h1 {
     font-size: 1.8em;
     flex-direction: column;
@@ -80,6 +75,7 @@ nav ul{
 
 .nav_bar li {
 	display: none;
+
 }
 
 nav ul li a.active{
@@ -109,17 +105,19 @@ nav ul li a.active{
 	display: block;
 }
 nav {
-	margin: 0 auto;
+	
   background-color: #79446A;
-  border-radius: 15px;
+  
 }
 
 footer {
-    max-width: 1000px;
+    min-width: 100%;
 	height:fit-content;
 	background-color: #79446A;
     text-align: center;
     font-family: "Helvetica", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 .school {
     color: white;
@@ -132,7 +130,7 @@ footer {
     font-family: "Helvetica", sans-serif;
   }
   main {
-    max-width: 1000px;
+    min-width: 100%;
     margin: auto;
 }
 
@@ -209,8 +207,10 @@ h4 {
     text-align: center;
 }
 .main_location {
-    text-align: center;
-    color: #85ACC0;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
 }
 .top_part {
     margin:10px auto;

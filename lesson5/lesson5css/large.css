@@ -15,11 +15,13 @@
 	}
 		.nav_bar {
 		display: flex;
+		min-width: 100%;
 	}
 
 	.nav_bar li {
 		display: block;
 		flex: 1 1 auto;
+		
 	}
 	.nav_bar a {
 		text-align: center;
@@ -28,10 +30,14 @@
 		display: none;
 	}
 	main {
-		max-width: 1000px;
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	footer {
-		max-width: 1000px;
-	}
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
 	
 }
