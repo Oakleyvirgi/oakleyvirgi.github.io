@@ -13,23 +13,24 @@ flex-direction: row;
     flex-direction: column;
 }
 header {
-	padding-bottom: 40px;
 	background-color:#79446A;
-    border: 1px solid #a2708A;
-    border-radius: 12px;
     font-family: 'Roboto', sans-serif;
     display: flex;
+    padding: 5px 0;
     align-items: center;
-    justify-content: center;
-    flex-flow: row nowrap;
-  
+    justify-content: center; 
 }
+
 .headings {
     display:flex;
     flex-direction: column;
     height:fit-content;
 }
-
+.heading h1 {
+    font-size: 1.8em;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1{
     color: white;
@@ -41,23 +42,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
 p{
     font-family: "Helvetica", sans-serif;
     color:white;
-    
-}
-.text, .text2, .text3, .text4 {
-    display: block;
-    margin: 10px auto;
-    background-color: #475766;
-    border: 1px dashed;
-    padding-bottom: 10px;  
-    border-collapse: separate;
-    border-spacing: 15px 50px;
-    padding: 1em;
-    color:white;
-    font-style: italic;
-    
     
 }
 
@@ -159,4 +147,85 @@ footer {
 footer {
     max-width: 1000px;
 }
-  
+.article p {
+    color: black;
+  }
+
+  .article {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+  border: 1px solid #000;
+  color: black;
+}
+
+#articlePhoto {
+    width: 100%;
+  }
+
+.contactInfo {
+      margin: auto;
+      grid-column: 1;
+}
+.contactInfo h3, .contactInfo h4 {
+    text-align: center;
+    color: white;
+  }
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:10px;
+    border: 1px solid black
+}
+
+#weather, #weather2, #weather3, #weather4, #weather5 {
+    color: black
+    ;
+  }
+
+#Days {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    color: white;
+}
+
+.forecast {
+    display: block;
+}
+
+#forescastDay {
+    background-color:#475766;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+}
+
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    text-decoration: underline;
+    font-family:"Helvetica", sans-serif;
+}
+
+.forecast h3, .article h3 {
+    text-align: center;
+}
+.main_location {
+    text-align: center;
+    color: #85ACC0;
+}
+.top_part {
+    margin:10px auto;
+    position: relative;
+}
+.top_part img {
+    width: 100%;
+    height: auto;
+}

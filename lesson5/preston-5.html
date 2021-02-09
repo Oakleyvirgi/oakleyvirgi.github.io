@@ -15,9 +15,12 @@
 </head>
 
 <body>
+   
     <div class="home-flex">
         <header>
+            <picture>
             <img src="../lesson5/lesson5images/weather4real.png" alt="Logo">
+            </picture>
             <section class="headings">
                 <h1>Weather 4 Real</h1>
                 <p class="message">The most accurate weather ever!</p>
@@ -37,7 +40,7 @@
     </div>
 
     <main>
-        <h2>Preston Idaho</h2>
+        <h2 class="main_location">Preston Idaho</h2>
         <div class="top_part">
             <image src="lesson5images/main.jpg" alt="background"></image>
             <section class="summary">
@@ -52,7 +55,7 @@
 
         <div class="forecast">
             <h3>5 Day Forecast</h3>
-            <table id="5Days">
+            <table id="Days">
                 <thead>
                     <tr id="forecastDay">
                         <th>Tues</th>
@@ -67,27 +70,27 @@
                         <td>
                             <img src="../lesson5/lesson5images/sunny.png" alt="Day 1 Sunny">
                             <br>
-                            <span id="degrees1">81 °F</span>
+                            <span id="weather">81 °F</span>
                         </td>
                         <td>
                             <img src="../lesson5/lesson5images/sunny.png" alt="Day 2 Sunny">
                             <br>
-                            <span id="degrees2">71 °F</span>
+                            <span id="weather2">71 °F</span>
                         </td>
                         <td>
                             <img src="../lesson5/lesson5images/sunny.png" alt="Day 3 Sunny">
                             <br>
-                            <span id="degrees3">61 °F</span>
+                            <span id="weather3">61 °F</span>
                         </td>
                         <td>
                             <img src="../lesson5/lesson5images/storm.png" alt="Day 4 Storm">
                             <br>
-                            <span id="degrees4">44 °F</span>
+                            <span id="weather4">44 °F</span>
                         </td>
                         <td>
                             <img src="../lesson5/lesson5images/wind.png" alt="Day 5 Wind">
                             <br>
-                            <span id="degrees5">52 °F</span>
+                            <span id="weather5">52 °F</span>
                         </td>
                     </tr>
                 </tbody>
@@ -95,7 +98,7 @@
         </div>
 
         <div class="article">
-            <img id="article" src="lesson5images/article_image.png" alt="Article Image">
+            <img id="articlePhoto" src="lesson5images/article_image.png" alt="Article Image">
             <h3>Articles</h3>
             <p>BOISE, Idaho — Just looking at the temperatures we've seen in Boise so far this year, we really could
                 call this a "warm winter." Through January and February (so far), there were 8 days with high temps at
