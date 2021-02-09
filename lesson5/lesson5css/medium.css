@@ -40,6 +40,8 @@
 		grid-column: 1;
     	grid-row: 1;
     	height: 290px;
+		border: 2px solid black;
+		
 	}
 	.contactIsnfo {
 		grid-column: 2;

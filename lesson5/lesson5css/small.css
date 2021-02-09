@@ -2,6 +2,9 @@
     body {
 flex-direction: row;
     }
+    #map {
+        display: none;
+    }
 }
     
      img {
@@ -156,13 +159,12 @@ footer {
       grid-column: 1;
 }
 .contactInfo h3, .contactInfo h4 {
-    text-align: center;
+    font-size: small;
+    font-weight: normal;
     color: white;
   }
 
 .contact {
-    display: grid;
-    grid-template-columns: 1fr;
     margin-top: 15px;
     margin-bottom: 15px;
     padding:10px;
@@ -183,7 +185,7 @@ footer {
 }
 
 .forecast {
-    display: block;
+    display: none;
 }
 
 #forecastDay {
