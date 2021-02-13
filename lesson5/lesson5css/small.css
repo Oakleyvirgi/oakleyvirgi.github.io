@@ -126,6 +126,9 @@ footer {
     color: white;
     
 }
+.sourceurl {
+    color: black;
+}
 .message {
     font-style: italic;
 }
@@ -245,3 +248,13 @@ h4 {
 #date {
     padding-top: 6px;
 }
+#onlyFriday {
+    display: none;
+    background-color: #ffff00be;
+    color: #050547;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+    font-family:"Helvetica", sans-serif;
+  }
