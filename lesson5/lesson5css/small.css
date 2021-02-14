@@ -51,6 +51,7 @@ h1{
     width: 100%;
 }
 
+
 body {
     /*display: flex;
     flex: auto;*/
@@ -207,6 +208,7 @@ h3 {
 }
 
 h4 {
+    text-align: center;
     text-decoration: underline;
     font-family:"Helvetica", sans-serif;
 }
