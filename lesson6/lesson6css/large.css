@@ -1,0 +1,46 @@
+@media only screen and (min-width: 60em) {
+   
+	body {
+		display: flex;
+		flex-direction: column;
+	
+	}
+	li {
+		display: inline-block;
+	}
+	img {
+		display: block;
+		float: right;
+		width: 128px;
+	}
+		.nav_bar {
+		display: flex;
+		min-width: 100%;
+	}
+
+	.nav_bar li {
+		display: block;
+		flex: 1 1 auto;
+		
+	}
+	.nav_bar a {
+		text-align: center;
+	}
+	.nav_bar li:first-child {
+		display: none;
+	}
+	main {
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer {
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	#articlePhoto {
+		width: 20%;
+		height: 20%;
+	}
+}
