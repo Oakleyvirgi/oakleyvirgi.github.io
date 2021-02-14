@@ -8,11 +8,9 @@ flex-direction: row;
 }
     
 img {
-    margin-left: 10px;
-    margin-right: 10px;height: 80px;
-    width: auto;
     float: right;
-    }
+    height: 80px;  
+}
 .home-flex {
     display:flex;
     flex-direction: column;
@@ -128,7 +126,7 @@ footer {
     color: white;
     
 }
-.sourceurl {
+.source {
     color: black;
 }
 .message {
@@ -157,8 +155,8 @@ footer {
 }
 
 #articlePhoto {
-    width: 35%;
-    height: 180px;
+    width: 25%;
+    height: 25%;
     padding: 0px 0px 0px 5px;
   }
 
@@ -224,8 +222,10 @@ h4 {
     
 }
 .top_part {
-    margin:10px auto;
+    
     position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .top_part img {
     width: 100%;
