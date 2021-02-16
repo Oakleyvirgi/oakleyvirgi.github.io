@@ -6,6 +6,6 @@ let windc = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(wspeed, .16)) + (
   if (temperature <= 50 && wspeed > 3) {
      windc = Math.round(windc);
   } else {
-     windc = "N/A";
+     windc = "n/a ";
   }
 document.getElementById('windc').innerHTML = windc;
