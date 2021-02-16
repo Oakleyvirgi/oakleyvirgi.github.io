@@ -223,14 +223,13 @@ h4 {
     
 }
 .top_part {
-    
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
 }
 .top_part img {
     width: 100%;
-    height: auto;
+    height: 400px;
 }
 .summary {
     position: absolute;

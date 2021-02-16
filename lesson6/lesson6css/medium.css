@@ -85,4 +85,8 @@
 		width: 30%;
 		height: 30%;
 	}
+	.top_part img {
+		width: 100%;
+		height: 600px;
+	}
 }
