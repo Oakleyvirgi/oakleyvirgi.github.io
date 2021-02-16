@@ -101,7 +101,11 @@
         </div>
 
         <div class="article">
-            <img id="articlePhoto" src="lesson6images/article_image.jpg" alt="Article Image">
+            <picture>
+                <source media = "max-width:400px" src = "lesson6images/article_400.jpg">
+                <source media="max-width:800px" src = "lesson6images/article_800.jpg">
+                <img id="articlePhoto" src="lesson6images/article_1200.jpg" alt="Article Image">
+            </picture>
             <h3>Article</h3>
             <p>BOISE, Idaho — Just looking at the temperatures we've seen in Boise so far this year, we really could
                 call this a "warm winter." Through January and February (so far), there were 8 days with high temps at
@@ -140,6 +144,8 @@
             <span id="date"></span>
     </footer>
     <script src="../lesson6/lesson6js/lesson6.js"></script>
+    <script src="/lesson6/lesson6js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
 
 </body>
 
