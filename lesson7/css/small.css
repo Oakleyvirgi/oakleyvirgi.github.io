@@ -1,0 +1,266 @@
+@media only screen and (max-width: 639px) {
+    body {
+flex-direction: row;
+    }
+    #map {
+        display: none;
+    }
+}
+    
+img {
+    float: right;
+    height: 80px;  
+}
+.home-flex {
+    display:flex;
+    flex-direction: column;
+}
+header {
+	background-color:#79446A;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center; 
+}
+
+.heading h1 {
+    font-size: 1.8em;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: "Helvetica", sans-serif;
+    color:white;
+    
+}
+
+h1{
+    width: 100%;
+}
+
+
+body {
+    /*display: flex;
+    flex: auto;*/
+	background-color: #85ACC0;
+	font-size: 18px;
+    margin: 0 auto;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #79446A;
+}
+
+nav ul{
+    list-style:none;
+    text-align: center;
+}
+
+
+.nav_bar li:first-child {
+    display: block;
+}
+
+.nav_bar li {
+	display: none;
+
+}
+
+nav ul li a.active{
+    background-color:#475766;
+  }
+
+.nav_bar {
+   list-style: none;
+   text-align: center;
+   padding: 0;
+  }
+
+ 
+.nav_bar a {
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	font-weight: 700;
+}
+.nav_bar a:hover {
+	color: white;
+	background-color:black;
+}
+.responsive li {
+	display: block;
+}
+nav {
+	
+  background-color: #79446A;
+  
+}
+
+footer {
+    min-width: 100%;
+	height:fit-content;
+	background-color: #79446A;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.school {
+    color: white;
+    
+}
+.source {
+    color: black;
+}
+.message {
+    font-style: italic;
+}
+#copyright {
+    font-family: "Helvetica", sans-serif;
+  }
+  main {
+    min-width: 100%;
+    margin: auto;
+}
+
+.article p {
+    color: black;
+  }
+
+  .article {
+	display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+	margin-top: 15px;
+	padding: 10px;
+  border: 1px solid #000;
+  color: black;
+}
+
+#articlePhoto {
+    width: 25%;
+    height: 25%;
+    padding: 0px 0px 0px 5px;
+  }
+
+.contactInfo {
+      margin: auto;
+      grid-column: 1;
+}
+.contactInfo h3, .contactInfo h4 {
+    font-size: small;
+    font-weight: normal;
+    color: white;
+  }
+
+.contact {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:10px;
+    border: 1px solid black;
+    background-color:#475766
+}
+
+#weather, #weather2, #weather3, #weather4, #weather5 {
+    color:black;
+    font-weight: bold;
+  }
+
+#Days {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.forecast {
+    display: none;
+}
+
+#forecastDay {
+    background-color:#475766;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+}
+
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    font-family:"Helvetica", sans-serif;
+}
+
+.forecast h3, .article h3 {
+    text-align: center;
+}
+.main_location {
+    color:black;
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+    
+}
+.top_part {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top_part img {
+    width: 100%;
+    height: 400px;
+}
+.summary {
+    position: absolute;
+    top: 0px;
+    border: 1px solid black;
+    box-shadow: 0 0 30px black;
+    padding: 6px;
+    opacity: .7;
+    background: radial-gradient(#eee, #EDF5E1);
+}
+
+.summary p {
+    color: black;
+    font-weight: bolder;
+}
+
+#map {
+    border: 2px solid black;
+    margin: auto;
+}
+
+#date {
+    padding-top: 6px;
+}
+#onlyFriday {
+    display: none;
+    background-color: #ffff00be;
+    color: #050547;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+    font-family:"Helvetica", sans-serif;
+  }
