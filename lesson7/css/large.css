@@ -43,4 +43,11 @@
 		width: 20%;
 		height: 20%;
 	}
+	#galleryImages {
+		grid-template-columns: 1fr 1fr 1fr;
+	  }
+	
+	  #galleryImages figure:hover {
+		box-shadow: 0 0 50px #9dc7f0;
+	  }
 }
