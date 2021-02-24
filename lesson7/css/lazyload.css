@@ -113,13 +113,12 @@ nav {
 }
 
 footer {
-    min-width: 100%;
+    max-width: 100%;
 	height:fit-content;
 	background-color: #79446A;
     text-align: center;
     font-family: "Helvetica", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 .school {
     color: white;
@@ -133,8 +132,8 @@ footer {
 }
 #copyright {
     font-family: "Helvetica", sans-serif;
-  }
-  main {
+}
+main {
     max-width: 400px;
     margin: auto;
 }
@@ -146,26 +145,8 @@ footer {
     height:fit-content;
     
 }
-.top_part {
-    position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.top_part img {
-    width: 100%;
-    height: 400px;
-}
+
 
 #date {
     padding-top: 6px;
 }
-#onlyFriday {
-    display: none;
-    background-color: #ffff00be;
-    color: #050547;
-    text-align: center;
-    font-size: 1.2em;
-    padding: 5px;
-    font-weight: bold;
-    font-family:"Helvetica", sans-serif;
-  }
