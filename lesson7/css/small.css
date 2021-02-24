@@ -7,9 +7,9 @@ flex-direction: row;
     }
 }
     
-img[data-src] {
+/*img[data-src] {
     filter: blur(0.4em);
-  }
+  }*/
   
   img {
     filter: blur(0em);
@@ -19,13 +19,7 @@ img {
     float: right;
     height: 80px;  
 }
-.herodiv {
-	margin: 10px auto;
-  position: relative;}
-  
-.herodiv img {
-  width: 100%;
-}
+
 .home-flex {
     display:flex;
     flex-direction: column;
