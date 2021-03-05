@@ -1,24 +1,20 @@
-
-body {
-    margin: 0 auto;
-    background-color: #FFFFFF;
-  }
-  
-  caption {
+caption {
     background-color: #7fb9c2;
     font-size: 1.6em;
     font-weight: bold;
     padding: 9px;
     box-shadow: 8px 8px 12px #5e9097;  
   }
-  
   header {
     align-items:center;
     justify-content: center;
     display: flex;
     padding: 6px 0;
   }
-  
+body {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+  }
   h1 {
     font-family: Ubuntu, sans-serif;
     font-size: 1.9em;
@@ -26,23 +22,25 @@ body {
   }
   
   tfoot tr td {
-    background-color: #7fb9c2;
+  
     text-align: center;
     font-size: .8em;
     padding: 5px;
+    background-color: #7fb9c2;
   }
   
   th {
-    background-color: #628CA6;
+
     color: #FFFFFF;
     font-weight: bold;
     padding: 5px;
     border: solid 1.5px #cdcdcd;
+    background-color: #628CA6;
   }
   
   td {
-    border: solid 1.5px #cdcdcd;
     padding: 5px;
+    border: solid 1.5px #cdcdcd;
   }
   
   tr:nth-child(odd) {
@@ -54,8 +52,8 @@ body {
   }
   
   tr:nth-child(4) td:nth-child(3) {
-    background-color: #628CA6;
     color: white;
+    background-color: #628CA6;
   }
   tr:nth-child(5) td:nth-child(1) {
     font-style: italic;
