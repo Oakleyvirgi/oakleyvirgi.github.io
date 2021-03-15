@@ -43,7 +43,7 @@ a {
   }
   
   footer {
-    background-color:#379683;
+    background-color:#79446A;
     color: #05386B;
     font-family: Century-Gothic;
     font-size: 16px;
@@ -54,7 +54,7 @@ a {
   }
   
   header {
-    color: #5CDB95;
+    color: #79446A;
     align-items:center;
     justify-content: center;
     display: flex;
@@ -95,20 +95,20 @@ a {
     font-family: Century-Schoolbook;
     font-size: 1.8em;
     text-shadow: 1px 1px 1px #05386b;
-    color: #5cdb95;
+    color: #79446A;
   }
   
   h2 {
     font-size: 1.5em;
     font-family: Century-Schoolbook;
-    color: #5cdb95;
+    color: #79446A;
     text-shadow: 1px 1px 1px #05386b;
   }
   
   h3 {
     font-family: Century-Schoolbook;
     font-size: 1.2em;
-    color: #5cdb95;
+    color: #79446A;
     text-shadow: .5px .5px .5px #05386b;
   }
   
@@ -135,12 +135,12 @@ a {
   
   nav {
       margin: 0 auto;
-    background-color: #5CDB95;
+    background-color: #79446A;
     border-radius: 15px;
   }
   
   nav ul li a.active{
-    background-color: #379683;
+    background-color: #79446A;
   }
   
   .nav_bar {
@@ -168,7 +168,7 @@ a {
   
   .nav_bar a:hover {
       color: #05386B;
-      background-color: #8EE4AF;
+      background-color: #79446A;
   }
   
   .responsive li {
