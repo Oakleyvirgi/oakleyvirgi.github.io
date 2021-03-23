@@ -14,7 +14,7 @@ a {
   }
   
   .articlediv p {
-    color: #EDEDED;
+    color: black;
   }
   
   .articlediv {
@@ -42,7 +42,7 @@ a {
   
   .contact_info h3, .contact_info h4 {
     text-align: center;
-    color: #EDEDED#EDEDED;
+    color: #25131D;
   }
   
   .contactdiv h4 {
@@ -185,7 +185,7 @@ a {
   }
   
   .summary p {
-    color: #EDEDED;
+    color: black;
     font-weight: bolder;
   }
   
@@ -254,7 +254,7 @@ a {
   }
   
   #temp1, #temp2, #temp3, #temp4, #temp5 {
-    color: #EDEDED;
+    color: black;
     font-family: Century-Schoolbook;
     font-size: 1.2em;
   }
