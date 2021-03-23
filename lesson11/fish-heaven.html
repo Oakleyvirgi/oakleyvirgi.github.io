@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Assignment for Katherine Campbell in WDD 230: Web Frontend Development I at Brigham Young University - Idaho">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="/lesson9/css/normalize.css">
+        <link rel="stylesheet" href="/lesson9/css/small.css">
+        <link rel="stylesheet" href="/lesson9/css/medium.css">
+        <link rel="stylesheet" href="/lesson9/css/large.css">      
+        <title>The Weather Site Home Page</title>
+      </head>
+  <body>
+    <header>
+        <img src="/lesson9/images/weather4real.png" alt="Weather Site Logo">
+        <section class="heading">
+          <h1>Weather 4 Real</h1>
+          <div class="motto">The most accurate weather ever!</div>
+        </section>
+      </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/lesson9/index.html">Home</a></li>
+        <li><a href="/lesson11/preston.html">Preston</a></li>
+        <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
+        <li><a class="active" href="/lesson11/fish-haven.html">Fish Haven</a></li>
+        <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class= "section_head">Fish Haven</h2>
+      <div class="herodiv">
+        <picture>
+          <source media="(max-width: 400px)" srcset="/lesson11/images/fishhavenHero_400.jpg">
+          <source media="(max-width: 800px)" srcset="/lesson11/images/fishhavenHero_800.jpg">
+          <img src="/lesson11/images/fishhavenHero_1200.jpg" alt="Bear Lake">
+        </picture>
+				<section class="summary">
+          <h3>Weather Summary</h3>
+            <p>Currently: 
+              <span id="currently"></span>
+            </p>
+            <p>Temp: 
+              <span id="temp"></span>
+            &#176;F</p>
+            <p>Wind Chill: 
+              <span id="windchill"></span>
+            </p>
+            <p>Humidity: 
+              <span id="humidity"></span>
+            %</p>
+            <p>Wind Speed: 
+              <span id="windspeed"></span>
+            mph</p>
+  			</section>
+      </div>
+      <h3 id="forecastTitle">5 Day Forecast</h3>
+      <div class="forecastdiv">
+        <div class="forecasts">
+          <div id="day1"></div>
+          <img src="#" alt="" id="img1">
+          <div id="temp1"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day2"></div>
+          <img src="#" alt="" id="img2">
+          <div id="temp2"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day3"></div>
+          <img src="#" alt="" id="img3">
+          <div id="temp3"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day4"></div>
+          <img src="#" alt="" id="img4">
+          <div id="temp4"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day5"></div>
+          <img src="#" alt="" id="img5">
+          <div id="temp5"></div>
+        </div>
+      </div>
+      <section class="townEvents">
+        <h3>Upcoming Town Events</h3>
+        <hr>
+      </section>
+      <div class="articlediv">
+        <picture>
+          <img id="article_img" src="/lesson11/images/gladys.jpg" alt="Glady's Place">
+        </picture>
+        <h3>About Fish Haven</h3>
+        <p>FISH HAVEN, Idaho — It's an undiscovered paradise. Most people who   drive by recognize the raw beauty of a place ringed by high desert mountains and bordered by the shores of a vast natural lake.</p>
+
+        <p>In winter the hills outside this small paradise echo with the sharp whine of snow machines and in the summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.</p>
+          
+        <p>But they don't live there. It's different living in Fish Haven.
+        It's not technically a city or a town, it's really nothing more than the proverbial wide spot in the road. But people call it a town even though there isn't a city council, just the Bear Lake County Commission that oversees development there.</p>
+        
+        <p>Only 50 to 100 people call it home, depending on the weather.</p>
+        
+        <p>Vic Tilt, co-owner of Gladys' Place, is one of the few year-around residents and said the population drops quickly when things get cold.--Courtesy of Deseret News--<a href="https://www.deseret.com/2000/12/26/19546274/little-fish-haven-idaho-is-paradise-for-residents">READ MORE at Deseret News</a></p>
+      </div>
+      <div class="contactdiv">
+        <a id="map_link" href="https://www.google.com/maps/place/Fish+Haven,+ID+83287/@42.0380399,-111.4048681,15z/data=!3m1!4b1!4m5!3m4!1s0x875415e9bdab006f:0xc1864ed86dd2b0e4!8m2!3d42.0371544!4d-111.395956">
+          <img id="map" src="/lesson11/images/fishhaven_map.jpg" alt="Fish Haven Map">
+        </a>
+        <div class="contact_info">
+          <h4>Contact Information</h4>
+          <h3>1234 Storm Avenue</h3>
+          <h3>Boise, Idaho 83707</h3>
+          <h3>986-222-1234</h3>
+          <h3>contact@goodtimeweather.com</h3>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> | Michael Fuller | Arizona | <a href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="https://openweathermap.org/">Open Weather Map</a>
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="/lesson11/js/fishhaven.js"></script>
+    <script src="/lesson11/js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Fira Sans', 'Titillium Web']}});
+    </script>
+  </body>
+</html>
+
