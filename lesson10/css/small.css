@@ -1,12 +1,12 @@
 a {
-    color: #05386B;
+    color: #EDEDED;
     font-weight: bold;
   }
   
   #announce {
     display: none;
-    background-color: #79446A;
-    color: #05386B;
+    background-color: #25131D;
+    color: #EDEDED;
     text-align: center;
     font-size: 1.2em;
     padding: 5px;
@@ -14,7 +14,7 @@ a {
   }
   
   .articlediv p {
-    color: #05386B;
+    color: #EDEDED;
   }
   
   .articlediv {
@@ -22,7 +22,7 @@ a {
       margin-top: 15px;
       padding: 10px;
     border: 1px solid #000;
-    color: #05386B;
+    color: #a1a1a1;
   }
   
   #article_img {
@@ -42,7 +42,7 @@ a {
   
   .contact_info h3, .contact_info h4 {
     text-align: center;
-    color: #05386B;
+    color: #EDEDED#EDEDED;
   }
   
   .contactdiv h4 {
@@ -69,8 +69,8 @@ a {
   }
   
   #day1, #day2, #day3, #day4, #day5 {
-    background-color: #79446A;
-    color: #05386b;
+    background-color: #25131D;
+    color: #EDEDED;
     font-family: Century-Schoolbook;
     font-size: 1.2em;
     font-weight: bolder;
@@ -81,7 +81,7 @@ a {
     margin: 0 auto;
     width: 800px;
     text-align: center;
-    color: #05386b;
+    color: #EDEDED;
     font-family: Century-Schoolbook;
   }
   
@@ -98,8 +98,8 @@ a {
   }
   
   footer {
-    background-color:#79446A;
-    color: #05386B;
+    background-color:#25131D;
+    color: #EDEDED;
     font-family: Century-Gothic;
     font-size: 16px;
     text-align: center;
@@ -109,7 +109,7 @@ a {
   }
   
   header {
-    color: #79446A;
+    color: #25131D;
     align-items:center;
     justify-content: center;
     display: flex;
@@ -138,31 +138,31 @@ a {
   h1 {
     font-family: Century-Schoolbook;
     font-size: 1.8em;
-    text-shadow: 1px 1px 1px #05386b;
+    text-shadow: 1px 1px 1px #EDEDED;
   }
   
   h2 {
     font-size: 1.5em;
     font-family: Century-Schoolbook;
     color: #79446A;
-    text-shadow: 1px 1px 1px #05386b;
+    text-shadow: 1px 1px 1px #EDEDED;
   }
   
   h3 {
     font-family: Century-Schoolbook;
     font-size: 1.2em;
     color: #79446A;
-    text-shadow: .5px .5px .5px #05386b;
+    text-shadow: .5px .5px .5px #EDEDED;
   }
   
   h4 {
-    color: #05386b;
+    color: #EDEDED;
     font-family: 'Titillium Web', sans-serif;
   }
   
   .section_head {
     text-align: center;
-    color: #79446A;
+    color: #25131D;
   }
   
   .herodiv {
@@ -185,7 +185,7 @@ a {
   }
   
   .summary p {
-    color: #05386B;
+    color: #EDEDED;
     font-weight: bolder;
   }
   
@@ -197,22 +197,22 @@ a {
     font-style: italic;
     font-size: .9em;
     letter-spacing: 1pt;
-    color: #79446A;
+    color: #25131D;
   }
   
   #map {
     margin: auto;
-    border: 2px solid #05386b;
+    border: 2px solid #EDEDED;
   }
   
   nav {
       margin: 0 auto;
-    background-color: #79446A;
+    background-color: #25131D;
     border-radius: 15px;
   }
   
   nav ul li a.active{
-    background-color: #79446A;
+    background-color: #25131D;
   }
   
   .nav_bar {
@@ -234,19 +234,19 @@ a {
       padding: 0.75rem;
       text-align: center;
       text-decoration: none;
-      color: #05386B;
+      color: #EDEDED;
       font-weight: 700;
   }
   
   .nav_bar a:hover {
-      color: #05386B;
-      background-color: #79446A;
+      color: #EDEDED;
+      background-color: #25131D;
   }
   
   p {
     font-family: Century-Schoolbook;
     font-size: 1em;
-    color:	#79446A;
+    color:	#25131D;
   }
   
   .responsive li {
@@ -254,7 +254,7 @@ a {
   }
   
   #temp1, #temp2, #temp3, #temp4, #temp5 {
-    color: #05386b;
+    color: #EDEDED;
     font-family: Century-Schoolbook;
     font-size: 1.2em;
   }
