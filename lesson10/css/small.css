@@ -145,14 +145,14 @@ a {
   h2 {
     font-size: 1.5em;
     font-family: Century-Schoolbook;
-    color: #79446A;
+    color: #25131D;
     text-shadow: 1px 1px 1px #EDEDED;
   }
   
   h3 {
     font-family: Century-Schoolbook;
     font-size: 1.2em;
-    color: #79446A;
+    color: #25131D;
     text-shadow: .5px .5px .5px #EDEDED;
   }
   
@@ -241,7 +241,7 @@ a {
   
   .nav_bar a:hover {
       color: #EDEDED;
-      background-color: #25131D;
+      background-color: gray;
   }
   
   p {

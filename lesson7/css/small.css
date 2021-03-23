@@ -26,7 +26,7 @@ img {
 }
 header {
 	color: #25131D;
-    font-family: 'Roboto', sans-serif;
+    font-family: Century-Gothic;
     display: flex;
     padding: 5px 0;
     align-items: center;
@@ -37,6 +37,7 @@ header {
 .heading h1 {
     font-size: 1.8em;
     flex-direction: column;
+    font-family: Century-Schoolbook;
     align-items: center;
 }
 
@@ -93,7 +94,7 @@ nav ul{
 }
 
 nav ul li a.active{
-    background-color:#475766;
+    background-color:#25131D;
   }
 
 .nav_bar {
@@ -108,34 +109,34 @@ nav ul li a.active{
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color:white;
+	color:#EDEDED;
 	font-weight: 700;
 }
 .nav_bar a:hover {
-	color: white;
-	background-color:black;
+	color: #EDEDED;
+	background-color: gray;
 }
 .responsive li {
 	display: block;
 }
 nav {
 	
-  background-color: #25131D;
-  border-radius: 15px;
+    background-color: #25131D;
+    border-radius: 15px;
   
 }
 
 footer {
     min-width: 100%;
-	height:fit-content;
-	background-color: #25131D;
+    background-color:#25131D;
+    color: #EDEDED;
+    font-family: Century-Gothic;
+    font-size: 16px;
     text-align: center;
-    font-family: "Helvetica", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-top: 10px;
     border-radius: 15px;
-}
+  }
 .school {
     color: white;
     
