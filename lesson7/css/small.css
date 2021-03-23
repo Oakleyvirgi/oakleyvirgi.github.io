@@ -25,12 +25,13 @@ img {
     flex-direction: column;
 }
 header {
-	background-color:#79446A;
+	color: #25131D;
     font-family: 'Roboto', sans-serif;
     display: flex;
     padding: 5px 0;
     align-items: center;
     justify-content: center; 
+
 }
 
 .heading h1 {
@@ -40,7 +41,7 @@ header {
 }
 
 h1{
-    color: white;
+    color: #25131D;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -64,7 +65,7 @@ h1{
 body {
     /*display: flex;
     flex: auto;*/
-	background-color: #85ACC0;
+	background-color: #EDF5E1;
 	font-size: 18px;
     margin: 0 auto;
 }
@@ -73,7 +74,7 @@ nav a {
     display: inline-block;
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color: #79446A;
+    background-color: #25131D;
 }
 
 nav ul{
@@ -119,18 +120,21 @@ nav ul li a.active{
 }
 nav {
 	
-  background-color: #79446A;
+  background-color: #25131D;
+  border-radius: 15px;
   
 }
 
 footer {
     min-width: 100%;
 	height:fit-content;
-	background-color: #79446A;
+	background-color: #25131D;
     text-align: center;
     font-family: "Helvetica", sans-serif;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
+    border-radius: 15px;
 }
 .school {
     color: white;
@@ -141,6 +145,7 @@ footer {
 }
 .message {
     font-style: italic;
+    color: black;
 }
 #copyright {
     font-family: "Helvetica", sans-serif;
@@ -288,7 +293,7 @@ h4 {
   #galleryImage figcaption {
     font-family: Century-Schoolbook;
     font-size: 1em;
-    color: #05386B;
+    color: #EDEDED;
     text-align: center;
   }
   .galleryImage {

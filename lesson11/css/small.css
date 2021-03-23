@@ -188,6 +188,7 @@ form input.submit_button {
 }
 
 footer {
+  min-width: 100%;
   background-color:#379683;
   color: #05386B;
   font-family: Century-Gothic;
