@@ -98,7 +98,7 @@ a {
   }
   
   footer {
-    background-color:#379683;
+    background-color:#79446A;
     color: #05386B;
     font-family: Century-Gothic;
     font-size: 16px;
@@ -109,7 +109,7 @@ a {
   }
   
   header {
-    color: #5CDB95;
+    color: #79446A;
     align-items:center;
     justify-content: center;
     display: flex;
@@ -144,14 +144,14 @@ a {
   h2 {
     font-size: 1.5em;
     font-family: Century-Schoolbook;
-    color: #5cdb95;
+    color: #79446A;
     text-shadow: 1px 1px 1px #05386b;
   }
   
   h3 {
     font-family: Century-Schoolbook;
     font-size: 1.2em;
-    color: #5cdb95;
+    color: #79446A;
     text-shadow: .5px .5px .5px #05386b;
   }
   
@@ -162,7 +162,7 @@ a {
   
   .section_head {
     text-align: center;
-    color: #5CDB95;
+    color: #79446A;
   }
   
   .herodiv {
@@ -197,7 +197,7 @@ a {
     font-style: italic;
     font-size: .9em;
     letter-spacing: 1pt;
-    color: #379683;
+    color: #79446A;
   }
   
   #map {
@@ -212,7 +212,7 @@ a {
   }
   
   nav ul li a.active{
-    background-color: #379683;
+    background-color: #79446A;
   }
   
   .nav_bar {
@@ -240,13 +240,13 @@ a {
   
   .nav_bar a:hover {
       color: #05386B;
-      background-color: #8EE4AF;
+      background-color: #79446A;
   }
   
   p {
     font-family: Century-Schoolbook;
     font-size: 1em;
-    color:	#5CDB95;
+    color:	#79446A;
   }
   
   .responsive li {
