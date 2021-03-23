@@ -1,12 +1,12 @@
 a {
-    color: #05386B;
+    color: #EDEDED;
     font-weight: bold;
   }
   
   body {
     margin: 0 auto;
     font-family: Century-Schoolbook;
-    background-color: #85ACC0;
+    background-color: #EDF5E1;
   }
   
   #comments {
@@ -26,13 +26,13 @@ a {
   
   form fieldset {
     margin: 2rem 0;
-    border: 1px solid #05386b;
+    border: 1px solid #EDEDED;
     border-radius: 10px;
     padding: .5rem 2%;
   }
   
   form legend {
-    color: #05386B;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-size: 1.2rem;
@@ -41,7 +41,7 @@ a {
   form label.top, form label.info, form div {
     display: block;
     padding-top: 1rem;
-    color: #05386B;
+    color: #EDEDED;
     font-size: .8rem;
   }
   
@@ -59,7 +59,7 @@ a {
     border: solid 1px #000;
     border-radius: 4px;
     padding: .5rem;
-    color: #05386B;
+    color: black;
     width: 100%;
     max-width: 20rem;
     background-color: #ffffff;
@@ -73,12 +73,12 @@ a {
   form label.storm {
     display: block;
     padding: .75rem 0;
-    color: #05386B;
+    color: #EDEDED;
   }
   
   form input.submit_button {
     border: none;
-    background-color: #79446A;
+    background-color: #25131D;
     color: white;
     font-size: 1.5rem;
     border-radius: 1rem;
@@ -91,7 +91,7 @@ a {
   footer {
     min-width: 100%;
 	  height:fit-content;
-    background-color:#79446A;
+    background-color:#25131D;
     color: white;
     font-family: "Helvetica", sans-serif;
     font-size: 16px;
@@ -102,8 +102,7 @@ a {
   }
   
   header {
-    background-color: #79446A;
-    color: white;
+    color: #25131D;
     align-items:center;
     justify-content: center;
     display: flex;
@@ -132,21 +131,21 @@ a {
   h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.8em;
-    text-shadow: 1px 1px 1px #05386b;
+    text-shadow: 1px 1px 1px #EDEDED;
   }
   
   h2 {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
-    color: white;
-    text-shadow: 1px 1px 1px #05386b;
+    color: black;
+    text-shadow: 1px 1px 1px #EDEDED;
   }
   
   h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color: #79446A;
-    text-shadow: .5px .5px .5px #05386b;
+    color: #25131D;
+    text-shadow: .5px .5px .5px #EDEDED;
   }
   
   h4 {
@@ -156,7 +155,7 @@ a {
   
   .section_head {
     text-align: center;
-    color: #79446A;
+    color: #25131D;
   }
   
   main {
@@ -167,17 +166,17 @@ a {
     font-style: italic;
     font-size: .9em;
     letter-spacing: 1pt;
-    color: white;
+    color: black;
   }
   
   nav {
       margin: 0 auto;
-    background-color: #79446A;
+    background-color: #25131D;
     border-radius: 15px;
   }
   
   nav ul li a.active{
-    background-color: #79446A;
+    background-color: #25131D;
 
   }
   
@@ -205,8 +204,8 @@ a {
   }
   
   .nav_bar a:hover {
-      color: #05386B;
-      background-color: #79446A;
+      color: #EDEDED;
+      background-color: #25131D;
   }
   
   .responsive li {
@@ -216,5 +215,5 @@ a {
   p {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    color:	#05386b;
+    color:	#EDEDED;
   }

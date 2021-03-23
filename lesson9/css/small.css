@@ -1,5 +1,5 @@
 a {
-    color: #05386B;
+    color: #EDEDED;
     font-weight: bold;
   }
   
@@ -43,8 +43,8 @@ a {
   }
   
   footer {
-    background-color:#79446A;
-    color: #05386B;
+    background-color:#25131D;
+    color: #EDEDED;
     font-family: Century-Gothic;
     font-size: 16px;
     text-align: center;
@@ -54,7 +54,7 @@ a {
   }
   
   header {
-    color: #79446A;
+    color: #25131D;
     align-items:center;
     justify-content: center;
     display: flex;
@@ -94,32 +94,32 @@ a {
   h1 {
     font-family: Century-Schoolbook;
     font-size: 1.8em;
-    text-shadow: 1px 1px 1px #05386b;
-    color: #79446A;
+    text-shadow: 1px 1px 1px black;
+    color: #25131D;
   }
   
   h2 {
     font-size: 1.5em;
     font-family: Century-Schoolbook;
-    color: #79446A;
-    text-shadow: 1px 1px 1px #05386b;
+    color: #25131D;
+    text-shadow: 1px 1px 1px #EDEDED;
   }
   
   h3 {
     font-family: Century-Schoolbook;
     font-size: 1.2em;
-    color: #79446A;
-    text-shadow: .5px .5px .5px #05386b;
+    color: #25131D;
+    text-shadow: .5px .5px .5px #EDEDED;
   }
   
   h4 {
     font-family: 'Titillium Web', sans-serif;
-    color: #05386B;
+    color: black;
   }
   
   .section_head {
     text-align: center;
-    color: #5CDB95;
+    color: #25131D;
   }
   
   main {
@@ -130,17 +130,17 @@ a {
     font-style: italic;
     font-size: .9em;
     letter-spacing: 1pt;
-    color: #379683;
+    color: black;
   }
   
   nav {
       margin: 0 auto;
-    background-color: #79446A;
+    background-color: #25131D;
     border-radius: 15px;
   }
   
   nav ul li a.active{
-    background-color: #79446A;
+    background-color: #25131D;
   }
   
   .nav_bar {
@@ -162,13 +162,13 @@ a {
       padding: 0.75rem;
       text-align: center;
       text-decoration: none;
-      color: #05386B;
+      color: #EDEDED;
       font-weight: 700;
   }
   
   .nav_bar a:hover {
-      color: #05386B;
-      background-color: #79446A;
+      color: #EDEDED;
+      background-color: #25131D;
   }
   
   .responsive li {
@@ -178,7 +178,7 @@ a {
   p {
     font-family: Century-Schoolbook;
     font-size: 1em;
-    color:	#05386b;
+    color:	black;
   }
   
   #wireframes {
