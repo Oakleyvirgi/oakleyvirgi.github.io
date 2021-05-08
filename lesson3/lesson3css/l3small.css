@@ -1,6 +1,6 @@
 header {
 	padding-bottom: 40px;
-	background-color: #824670;
+	background-color: #BF88B3;
 	border: 1px solid #a2708A;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 footer {
 	height: 80px;
 	padding-bottom: 10px;
-	background-color: #824670;
+	background-color: #BF88B3;
     border: 1px solid #a2708A;
 	border-radius: 12px;
     text-align: center;
@@ -59,7 +59,7 @@ nav a {
      color:white;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
-    background-color: #824670;
+    background-color: #BF88B3;
     border-radius: 12px;
 }
 
