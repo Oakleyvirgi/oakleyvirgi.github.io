@@ -15,11 +15,17 @@ p{
     color: black;
     font-weight: bold;
 }
+.lastText {
+    color: white;
+}
+.school {
+    color: white;
+}
 .text {
     background-color: #8291A9;
     border-radius: 12px;
     padding: 1em;
-    
+ 
     
 }
 h1{
@@ -48,8 +54,9 @@ footer {
 	border-radius: 12px;
     text-align: center;
     font-family: "Helvetica", sans-serif;
-
+    color: white;
 }
+
 li{
     display: block;
     }
