@@ -1,4 +1,4 @@
-@media only screen and (max-width: 639px) {
+/*@media only screen and (max-width: 639px) {
     body {
 flex-direction: row;
     }
@@ -9,7 +9,7 @@ flex-direction: row;
     
 /*img[data-src] {
     filter: blur(0.4em);
-  }*/
+  }
   
   img {
     filter: blur(0em);
@@ -64,8 +64,7 @@ h1{
 
 
 body {
-    /*display: flex;
-    flex: auto;*/
+
 	background-color: #EDF5E1;
 	font-size: 18px;
     margin: 0 auto;
@@ -306,4 +305,4 @@ h4 {
   
 .herodiv img {
   width: 100%;
-}
+}*/

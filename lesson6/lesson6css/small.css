@@ -1,4 +1,4 @@
-@media only screen and (max-width: 639px) {
+/*@media only screen and (max-width: 639px) {
     body {
 flex-direction: row;
     }
@@ -53,8 +53,7 @@ h1{
 
 
 body {
-    /*display: flex;
-    flex: auto;*/
+    
 	background-color: #85ACC0;
 	font-size: 18px;
     margin: 0 auto;
@@ -263,4 +262,4 @@ h4 {
     padding: 5px;
     font-weight: bold;
     font-family:"Helvetica", sans-serif;
-  }
+  }*/
