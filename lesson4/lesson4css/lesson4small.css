@@ -114,7 +114,7 @@ nav ul li a.active{
 }
 .responsive li {
 	display: block;
-    padding-block: 3px;
+    scroll-padding-block-end: 3px;
 }
 nav {
   background-color: #79446A;

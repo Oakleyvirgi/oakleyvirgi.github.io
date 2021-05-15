@@ -18,7 +18,7 @@
 
 	.nav_bar li {
 		display: block;
-		padding-inline-end: 20px;
+		padding-right: 20px;
 	}
 	.nav_bar a {
 		text-align: left;
