@@ -3,7 +3,6 @@
 	body {
 		display: flex;
 		flex-direction: column;
-		max-width: 75rem;
 	}
 	li {
 		display: inline-block;

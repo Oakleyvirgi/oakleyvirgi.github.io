@@ -15,7 +15,6 @@
 	}
 		.nav_bar {
 		display: flex;
-		min-width: 100%;
 	}
 
 	.nav_bar li {
