@@ -18,10 +18,10 @@
 
 	.nav_bar li {
 		display: block;
-		flex: 1 1 auto;
+		padding-inline-end: 20px;
 	}
 	.nav_bar a {
-		text-align: center;
+		text-align: left;
 	}
 	.nav_bar li:first-child {
 		display: none;
