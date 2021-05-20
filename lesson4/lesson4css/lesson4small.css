@@ -121,13 +121,16 @@ nav {
 }
 
 footer {
-	min-width: 100%;
+	max-width: 100%;
     height:fit-content;
 	background-color: #79446A;
     text-align: center;
     font-family: "Helvetica", sans-serif;
     margin-left: auto;
 	margin-right: auto;
+}
+.bottom {
+    background-color: #79446A;
 }
 .school {
     color: white;
