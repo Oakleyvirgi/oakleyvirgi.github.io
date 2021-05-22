@@ -11,11 +11,7 @@
 	li {
 		display: inline-block;
 	}
-	img {
-		display: block;
-		float: right;
-		width: 128px;
-	}
+	
 	.nav_bar {
 		display: flex;
 	}
@@ -36,9 +32,15 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+	.article {
+		display: grid;
+		grid-template-columns: 1fr auto;
+	}
 	#articlePhoto {
-		width: 20%;
-		height: 20%;
+		grid-column: 2/3;
+		grid-row: 1/4;
+		float:none;
+		width: 300px;
+		height: auto;
 	}
 }

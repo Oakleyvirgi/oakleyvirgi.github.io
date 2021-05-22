@@ -22,7 +22,7 @@
     .summary {
         border: 1px solid black;
         box-shadow: 0 0 30px black;
-        opacity: .7;
+        opacity: .4;
         background: radial-gradient(#eee, #EDF5E1);
     }
     .top_part {
@@ -33,7 +33,8 @@
 		display: grid;
 		grid-column: 2;
 		grid-row: 1;
-    	height: 290px;
+    	height: 100%;
+        width: 100%;
 		border: 2px solid black;
 		
 	}
@@ -168,12 +169,6 @@ footer {
 
 #copyright {
     font-family: "Helvetica", sans-serif;
-}
-
-#map {
-    display: none;
-    border: 2px solid black;
-    margin: auto;
 }
 
 
@@ -329,7 +324,6 @@ footer {
     }
 
     .top_part {
-
         position: relative;
         margin-left: 10px;
         margin-right: 10px;
