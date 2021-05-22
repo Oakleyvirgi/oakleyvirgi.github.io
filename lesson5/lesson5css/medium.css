@@ -1,34 +1,27 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 40em) and (max-width: 63.99em) {
  
-	/*body {
-		display: flex;
-	}*/
 	.nav_bar {
 		display: flex;
-		min-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	.nav_bar li {
 		display: block;
-		flex: 1 1 auto;
+		padding-right: 15px;
 	}
 	.nav_bar a {
-		text-align: center;
+		text-align: left;
 	}
 	.nav_bar li:first-child {
 		display: none;
 	}
+	
 	main {
 		min-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	footer {
-		min-width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
 	#article img {
 		padding-left: 4px;
 		float: right;
@@ -68,7 +61,8 @@
 		letter-spacing: 1pt;
 	}
 	.forecast {
-		display: block;
+		display:inline-block;
+		margin: 10px;
 	}
 
 	.summary {
