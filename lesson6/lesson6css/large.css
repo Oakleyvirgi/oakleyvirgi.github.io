@@ -32,5 +32,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#articlePhoto {
+		width: 20%;
+		height: 20%;
+	}
 	
 }
