@@ -55,6 +55,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+footer p {
+    color: white;
+}
 .school {
     color: white;
     
