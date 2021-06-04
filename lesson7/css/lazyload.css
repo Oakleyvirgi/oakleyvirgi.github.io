@@ -12,23 +12,17 @@
     margin-top: 50px;
   } 
 
-.home-flex {
-    display:flex;
-    flex-direction: column;
-}
 header {
 	background-color:#79446A;
     font-family: 'Roboto', sans-serif;
     display: flex;
     padding: 5px 0;
-    align-items: center;
     justify-content: center; 
 }
 
 .heading h1 {
     font-size: 1.8em;
     flex-direction: column;
-    align-items: center;
 }
 
 h1{
@@ -36,18 +30,6 @@ h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-h2 {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-
-
-h1{
-    width: 100%;
-}
-
 
 body {
     /*display: flex;
@@ -58,95 +40,36 @@ body {
     max-width: 400px;
 }
 
-nav a {
-    display: inline-block;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    background-color: #79446A;
-}
 
-nav ul{
-    list-style:none;
-    text-align: center;
-}
-
-
-.nav_bar li:first-child {
-    display: block;
-}
-
-.nav_bar li {
-	display: none;
-
-}
-
-nav ul li a.active{
-    background-color:#475766;
-  }
-
-.nav_bar {
-   list-style: none;
-   text-align: center;
-   padding: 0;
-  }
-
- 
-.nav_bar a {
-    display: block;
-	padding: 0.75rem;
-	text-align: center;
-	text-decoration: none;
-	color:white;
-	font-weight: 700;
-}
-.nav_bar a:hover {
-	color: white;
-	background-color:black;
-}
 .responsive li {
 	display: block;
 }
-nav {
-	
-  background-color: #79446A;
-  
-}
+
 
 footer {
     max-width: 100%;
-	height:fit-content;
-	background-color: #79446A;
+    height: fit-content;
+    background-color: #79446A;
     text-align: center;
     font-family: "Helvetica", sans-serif;
-   
+    margin-left: auto;
+    margin-right: auto;
 }
 .school {
     color: white;
     
 }
-.source {
-    color: black;
-}
-.message {
-    font-style: italic;
-}
-#copyright {
-    font-family: "Helvetica", sans-serif;
-}
+
 main {
-    max-width: 400px;
-    margin: auto;
+    /*max-width: 400px;
+    margin: auto;*/
+    padding: 0 2%;
+    text-align: center;
+    padding: 0 2%;
 }
 
-.main_location {
-    color:black;
-    display:flex;
-    flex-direction: column;
-    height:fit-content;
-    
+html{
+-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
-
-#date {
-    padding-top: 6px;
-}
