@@ -15,16 +15,16 @@
 	}
 		.nav_bar {
 		display: flex;
-		min-width: 100%;
+		
 	}
 
 	.nav_bar li {
 		display: block;
-		flex: 1 1 auto;
+		padding-right: 20px;
 		
 	}
 	.nav_bar a {
-		text-align: center;
+		text-align: left;
 	}
 	.nav_bar li:first-child {
 		display: none;
@@ -39,15 +39,10 @@
 		margin-left: auto;
 		margin-right: auto;
 		}
-	#articlePhoto {
-		width: 20%;
-		height: 20%;
-	}
+
 	#galleryImages {
 		grid-template-columns: 1fr 1fr 1fr;
 	  }
 	
-	  #galleryImages figure:hover {
-		box-shadow: 0 0 50px #9dc7f0;
-	  }
+	  
 }
