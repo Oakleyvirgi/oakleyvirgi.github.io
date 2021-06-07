@@ -4,8 +4,6 @@
     }
 }
 
-img[data-src] {}
-
 img {
     filter: blur(0em);
     transition: filter 0.5s;
@@ -82,7 +80,6 @@ nav ul {
 
 .nav_bar li {
     display: none;
-
 }
 
 li {
@@ -97,7 +94,7 @@ nav ul li a.active {
 .nav_bar {
     list-style: none;
     text-align: left;
-    padding: 0;
+    
 }
 
 
@@ -109,8 +106,13 @@ nav ul li a.active {
 }
 
 .nav_bar a:hover {
-    color: #EDEDED;
+    color: white;
     background-color: black;
+}
+.nav_bar a {
+    text-align: left;
+    text-decoration: none;
+    color:white;
 }
 
 .responsive li {
