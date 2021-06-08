@@ -1,85 +1,92 @@
 @media only screen and (max-width: 639px) {
     body {
-flex-direction: row;
+        flex-direction: row;
     }
 }
-main {
-    width: 100%;
 
+img {
+    height: 80px;
+    width: auto;
 }
-    
-     img {
-      height: 80px;
-      width: auto;
-        }
+
 .home-flex {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
+
 header {
-	background-color:#79446A;
+    background-color: #79446A;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: left;
 }
-.headings {
-    display:flex;
-    flex-direction: column;
-    height:fit-content;
-}
-header img { margin-left: 25px;}
 
-h1{
+.headings {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+header img {
+    margin-left: 25px;
+}
+
+h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
 h2 {
     color: black;
     font-family: 'Roboto', sans-serif;
     text-align: left;
     margin: 30px;
 }
-p{
+
+p {
     font-family: "Helvetica", sans-serif;
-    color:white;
-    
+    color: white;
+
 }
-.text, .text2, .text3 {
+
+.text,
+.text2,
+.text3 {
     display: block;
     margin: 10px auto;
     background-color: #475766;
     border: 1px dashed;
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
     border-collapse: separate;
     border-spacing: 15px 50px;
     padding: 1em;
-    color:white;
+    color: white;
     font-style: italic;
     margin: 30px;
-    
+
 }
 
-h1{
+h1 {
     width: 100%;
 }
 
 body {
-	background-color: #85ACC0;
-	font-size: 18px;    
+    background-color: #85ACC0;
+    font-size: 18px;
     margin: 0 auto;
 }
 
 nav a {
-    
-     color: white;
+
+    color: white;
     font-family: 'Roboto', sans-serif;
     background-color: #79446A;
-    
+
 }
 
-nav ul{
-    list-style:none;
+nav ul {
+    list-style: none;
     text-align: left;
 }
 
@@ -89,54 +96,57 @@ nav ul{
 }
 
 .nav_bar li {
-	display: none;
+    display: none;
 }
 
-nav ul li a.active{
-    background-color:#475766;
-  }
+nav ul li a.active {
+    background-color: #475766;
+}
 
 .nav_bar {
-   list-style: none;
-   text-align: left;
-  }
+    list-style: none;
+    text-align: left;
+}
 
- 
+
 .nav_bar a {
-	text-align: left;
-	text-decoration: none;
-	color:white;
+    text-align: left;
+    text-decoration: none;
+    color: white;
     padding-right: 15px;
 }
+
 .nav_bar a:hover {
-	color: white;
-	background-color:black;
+    color: white;
+    background-color: black;
 }
+
 .responsive li {
-	display: block;
+    display: block;
     scroll-padding-block-end: 3px;
 }
+
 nav {
-  background-color: #79446A;
+    background-color: #79446A;
 }
 
 footer {
     width: 100%;
-	background-color: #79446A;
+    background-color: #79446A;
     text-align: center;
     font-family: "Helvetica", sans-serif;
-    
+
 }
-.bottom {
-    background-color: #79446A;
-}
+
 .school {
     color: white;
-    
+
 }
+
 .message {
     font-style: italic;
 }
+
 #copyright {
     font-family: "Helvetica", sans-serif;
-  }
+}
