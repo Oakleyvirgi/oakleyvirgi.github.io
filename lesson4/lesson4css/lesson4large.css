@@ -9,19 +9,13 @@
 		display: inline-block;
 	}
 
-	img {
-		display: block;
-		float: left;
-		width: 128px;
-	}
-
 	.nav_bar {
 		display: flex;
 	}
 
 	.nav_bar li {
 		display: block;
-
+		padding-right: 20px;
 	}
 
 	.nav_bar a {

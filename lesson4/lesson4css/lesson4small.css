@@ -1,7 +1,11 @@
 @media only screen and (max-width: 639px) {
-    body {
-        flex-direction: row;
-    }
+   
+}
+
+body {
+    background-color: #85ACC0;
+    font-size: 18px;
+    margin: 0 auto;
 }
 
 img {
@@ -71,12 +75,6 @@ h1 {
     width: 100%;
 }
 
-body {
-    background-color: #85ACC0;
-    font-size: 18px;
-    margin: 0 auto;
-}
-
 nav a {
 
     color: white;
@@ -135,7 +133,6 @@ footer {
     background-color: #79446A;
     text-align: center;
     font-family: "Helvetica", sans-serif;
-
 }
 
 .school {
