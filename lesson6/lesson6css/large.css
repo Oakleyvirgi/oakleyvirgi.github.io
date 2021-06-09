@@ -27,14 +27,14 @@
 		display: none;
 	}
 	
-	main {
-		min-width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
 	#articlePhoto {
 		width: 20%;
 		height: 20%;
 	}
 	
+	footer,
+	main {
+		width: 80%;
+		margin: auto;
+	}
 }
