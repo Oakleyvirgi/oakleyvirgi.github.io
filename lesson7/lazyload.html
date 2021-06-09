@@ -15,11 +15,25 @@
         <h1>Progressive Loading of Images</h1>
     </header>
     <main>
-        <img src="images/after_rain.png" data-src="images/after_rain.jpg" alt='After Rain'>
-        <img src="images/light.png" data-src="images/light.jpg" alt='Lighting'>
-        <img src="images/snow.png" data-src="images/snow.jpg" alt='Snow'>
-        <img src="images/sol.png" data-src="images/sol.jpg" alt='Soleado'>
-        <img src="images/sunrise.png" data-src="images/sunrise.jpg" alt='Sunrise'>
+
+        <picture>
+            <img src='images/placeholder.jpg' data-src="images/after_rain.jpg" alt='After Rain'></picture>
+        <br>
+        <picture>
+            <img src='images/placeholder.jpg' data-src="images/light.jpg" alt='Lighting'>
+        </picture>
+        <br>
+        <picture>
+            <img src='images/placeholder.jpg' data-src="images/snow.jpg" alt='Snow'>
+        </picture>
+        <br>
+        <picture>
+            <img src='images/placeholder.jpg' data-src="images/sol.jpg" alt='Soleado'>
+        </picture>
+        <br>
+        <picture>
+            <img src='images/placeholder.jpg' data-src="images/sunrise.jpg" alt='Sunrise'></picture>
+        <br>
     </main>
     <footer>
         <p>&copy;<span id="copyright"></span> Weather 4 Real | Virgithmar Oakley |<a class="school"
@@ -29,5 +43,6 @@
             <span id="date"></span>
     </footer>
     <script src="lesson7js/lazyload.js"></script>
+    <script src="lesson7js/scripts.js"></script>
   </body>
 </html>
