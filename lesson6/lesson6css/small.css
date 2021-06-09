@@ -1,9 +1,6 @@
 @media only screen and (max-width: 639px) {
     body {
         flex-direction: row;
-        background-color: #85ACC0;
-        font-size: 18px;
-        margin: 0 auto;
     }
 
     .forecast {
