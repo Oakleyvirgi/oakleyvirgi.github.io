@@ -51,10 +51,7 @@
 		padding-right: 9px;
 	  }
 
-	.message {
-		font-size: larger;
-		letter-spacing: 1pt;
-	}
+	
 	.forecast {
 		display:inline-block;
 		margin: 10px;
