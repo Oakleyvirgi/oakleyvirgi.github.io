@@ -26,18 +26,12 @@
 	.nav_bar li:first-child {
 		display: none;
 	}
-	
-	.article {
-		display: grid;
-		grid-template-columns: 1fr auto;
+	#article img {
+		padding-left: 4px;
+		float: right;
+		width: 40%;
 	}
-	#articlePhoto {
-		grid-column: 2/3;
-		grid-row: 1/4;
-		float:none;
-		width: 300px;
-		height: auto;
-	}
+		
 	footer,
 	main {
 		width: 80%;
