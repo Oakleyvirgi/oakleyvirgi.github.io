@@ -2,109 +2,123 @@
 <html lang="en-us">
 
 <head>
-    <title>W07 The Gallery Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <link rel="shortcut icon" href="/iconImage.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <title>W07 The Gallery Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Assignment portal for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="shortcut icon" href="/iconImage.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 </head>
 
 <body>
-    <div id="onlyFriday" style="display: block;"></div>
-    <div class="home-flex">
-        <header>
-            <picture>
-            <img src="../lesson7/images/weather4real.png" alt="Logo">
-            </picture>
-            <section class="headings">
-                <h1>Weather 4 Real</h1>
-                <p class="message">The most accurate weather ever!</p>
-            </section>
-        </header>
-        <nav>
-            <ul class="nav_bar">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Preston</a></li>
-                <li> <a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a class="active" href="#">Gallery</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div id="onlyFriday" style="display: block;"></div>
+  <div class="home-flex">
+    <header>
+      <picture>
+        <img src="../lesson7/images/weather4real.png" alt="Logo">
+      </picture>
+      <section class="headings">
+        <h1>Weather 4 Real</h1>
+        <p class="message">The most accurate weather ever!</p>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li> <a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a class="active" href="#">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <main>
-        <div id="galleryImages">
-            <!-- IMAGE 1 -->
-                        <figure>
-                <img class="images/placeholder.jpg" alt="rainbow" src="images/weatherGallery/arcoiris.jpg" data-src="images/weatherGallery/arcoiris.jpg">
-                <figcaption>After rain, there is a rainbow</figcaption>
-              </figure>
-              <!-- IMAGE 2 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Cloudy" src="/lesson7/images/weatherGallery/bluesky.jpg" data-src="/lesson7/images/weatherGallery/bluesky.jpg">
-                <figcaption>Clear Blue Sky</figcaption>
-              </figure>
-              <!-- IMAGE 3 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Lightning" src="/lesson7/images/weatherGallery/estrellas.jpg" data-src="/lesson7/images/weatherGallery/estrellas.jpg">
-                <figcaption>Stars in the Sky</figcaption>
-              </figure>
-              <!-- IMAGE 4 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Orange Sky" src="/lesson7/images/weatherGallery/fog.jpg" data-src="/lesson7/images/weatherGallery/fog.jpg">
-                <figcaption>Fog for Better Weather</figcaption>
-              </figure>
-              <!-- IMAGE 5 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Snow" src="/lesson7/images/weatherGallery/luna.jpg" data-src="/lesson7/images/weatherGallery/luna.jpg">
-                <figcaption>The Moon Always Beautiful</figcaption>
-              </figure>
-              <!-- IMAGE 6 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Sol" src="/lesson7/images/weatherGallery/montana.jpg" data-src="/lesson7/images/weatherGallery/montana.jpg">
-                <figcaption>Sunny Days Over Snowy Mountains</figcaption>
-              </figure>
-              <!-- IMAGE 7 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Sunrise" src="/lesson7/images/weatherGallery/nieve.jpg" data-src="/lesson7/images/weatherGallery/nieve.jpg">
-                <figcaption>White Snow</figcaption>
-              </figure>
-              <!-- IMAGE 8 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Tornado" src="/lesson7/images/weatherGallery/nubleado.jpg" data-src="/lesson7/images/weatherGallery/nubleado.jpg">
-                <figcaption>Cloudy Days</figcaption>
-              </figure>
-              <!-- IMAGE 9 -->
-              <figure>
-                <img class="images/placeholder.jpg" alt="Sunny Skies" src="/lesson7/images/weatherGallery/relampago.jpg" data-src="/lesson7/images/weatherGallery/relampago.jpg">
-                <figcaption>Thunder can be Scary</figcaption>
-              </figure>              
-             
-            </div> 
-        </main>
-    <footer>
-        <p>&copy;<span id="copyright"></span> Weather 4 Real | Virgithmar Oakley |<a class="school"
-                href="https://www.byui.edu/online"> BYU-I Online
-                Learning</a> |<br> Last Updated <span id="last_date_modified"></span><span id="date"></span>
-                <br>
-            Last Visited <span id="lastVisited"></span>
-            <span id="date"></span>
-    </footer>
-    <script src="lesson7/js/gallery.js"></script>
-    <script src="lesson7js/lastvisit.js"></script>
-    <script src="lesson7js/lazyload.js"></script>
-    <script src="lesson7js/lesson7.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({google: {families: ['Roboto']}});
-    </script>
+  <main>
+    <div id="galleryImages">
+      <!-- IMAGE 1 -->
+      <figure>
+        <img class="images" alt="rainbow" src="images/weatherGallery/placeholder1.jpg"
+          data-src="images/weatherGallery/arcoiris.jpg"><br>
+        <figcaption>After rain, there is a rainbow</figcaption>
+      </figure>
+     
+      <!-- IMAGE 2 -->
+      <figure>
+        <img class="images" alt="Cloudy" src="images/weatherGallery/placeholder1.jpg" data-src="images/weatherGallery/bluesky.jpg" width="300" height="200">
+        <figcaption>Clear Blue Sky</figcaption>
+      </figure>
+      <!-- IMAGE 3 -->
+      <figure>
+        <img   alt="Lightning" src="/lesson7/images/weatherGallery/estrellas.jpg"
+          data-src="/lesson7/images/weatherGallery/estrellas.jpg">
+        <figcaption>Stars in the Sky</figcaption>
+      </figure>
+      <!-- IMAGE 4 -->
+      <figure>
+        <img   alt="Orange Sky" src="/lesson7/images/weatherGallery/fog.jpg"
+          data-src="/lesson7/images/weatherGallery/fog.jpg">
+        <figcaption>Fog for Better Weather</figcaption>
+      </figure>
+      <!-- IMAGE 5 -->
+      <figure>
+        <img   alt="Snow" src="/lesson7/images/weatherGallery/luna.jpg"
+          data-src="/lesson7/images/weatherGallery/luna.jpg">
+        <figcaption>The Moon Always Beautiful</figcaption>
+      </figure>
+      <!-- IMAGE 6 -->
+      <figure>
+        <img   alt="Sol" src="/lesson7/images/weatherGallery/montana.jpg"
+          data-src="/lesson7/images/weatherGallery/montana.jpg">
+        <figcaption>Sunny Days Over Snowy Mountains</figcaption>
+      </figure>
+      <!-- IMAGE 7 -->
+      <figure>
+        <img   alt="Sunrise" src="/lesson7/images/weatherGallery/nieve.jpg"
+          data-src="/lesson7/images/weatherGallery/nieve.jpg">
+        <figcaption>White Snow</figcaption>
+      </figure>
+      <!-- IMAGE 8 -->
+      <figure>
+        <img   alt="Tornado" src="/lesson7/images/weatherGallery/nubleado.jpg"
+          data-src="/lesson7/images/weatherGallery/nubleado.jpg">
+        <figcaption>Cloudy Days</figcaption>
+      </figure>
+      <!-- IMAGE 9 -->
+      <figure>
+        <img   alt="Sunny Skies" src="/lesson7/images/weatherGallery/relampago.jpg"
+          data-src="/lesson7/images/weatherGallery/relampago.jpg">
+        <figcaption>Thunder can be Scary</figcaption>
+      </figure>
+
+    </div>
+  </main>
+  <footer>
+    <p>&copy;<span id="copyright"></span> Weather 4 Real | Virgithmar Oakley |<a class="school"
+        href="https://www.byui.edu/online"> BYU-I Online
+        Learning</a><br>
+        Last Updated <span id="last_date_modified"></span><span id="date"></span> <br>
+      Last Visited <span id="lastVisited"></span>
+      <span id="date"></span>
+  </footer>
+  <script src="lesson7/js/gallery.js"></script>
+  <script src="lesson7js/lastvisit.js"></script>
+  <script src="lesson7js/lazyload.js"></script>
+  <script src="lesson7js/lesson7.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Roboto']
+      }
+    });
+  </script>
 
 </body>
 
