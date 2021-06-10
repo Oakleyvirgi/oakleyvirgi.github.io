@@ -3,9 +3,14 @@
 
         float: right;
         border-radius: 10px;
-        margin-top: 0px;
+        margin-top: -82px;
         margin-right: 10px;
-        box-shadow: 4px 4px 4px rgb(180, 176, 176);
+        box-shadow: 2px 2px 2px rgb(180, 176, 176);
+    }
+    body {
+        padding: 5px 210px;
+        font-size: 18px;
+        
     }
   
 }
