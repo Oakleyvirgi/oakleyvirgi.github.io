@@ -27,6 +27,8 @@ header {
 
 header img {
     margin-left: 25px;
+    height: 80px;
+    width: auto;
 }
 
 .heading h1 {
