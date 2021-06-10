@@ -12,8 +12,7 @@
 
 	img {
 		display: block;
-		float: right;
-		width: 128px;
+		
 	}
 
 	.nav_bar {
@@ -41,7 +40,7 @@
 		margin: auto;
 	}
 
-	#galleryImages {
+	.galleryImages {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 

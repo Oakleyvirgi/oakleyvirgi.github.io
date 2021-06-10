@@ -10,8 +10,7 @@ img {
 }
 
 img {
-    float: right;
-    height: 80px;
+    max-width:100%;
 }
 
 .home-flex {
@@ -190,7 +189,7 @@ footer {
     font-family: "Helvetica", sans-serif;
 }
 
-#galleryImages {
+.galleryImages {
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
@@ -199,16 +198,16 @@ footer {
     margin-right: 10px;
 }
 
-#galleryImages figure {
+.galleryImages figure {
 
     padding: 0;
 }
 
-#galleryImages figure:hover {
+.galleryImages figure:hover {
     box-shadow: 0 0 50px #0251a0;
 }
 
-#galleryImage figcaption {
+.galleryImage figcaption {
     font-family: Century-Schoolbook;
     font-size: 1em;
     color: white;
