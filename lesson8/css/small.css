@@ -1,219 +1,202 @@
-/*a {
-    color: #EDEDED;
-    font-weight: bold;
-  }
-  
+@media only screen and (max-width: 639px) {
   body {
-    margin: 0 auto;
-    font-family: Century-Schoolbook;
-    background-color: #EDF5E1;
+    flex-direction: row;
   }
-  
-  #comments {
-    height: 85px;
-    width: 300px;
-  }
-  
-  #copyright {
-    font-family: "Helvetica", sans-serif;
-  }
-  
-  #dates {
-    font-size: 1.0em;
-    font-family: "Helvetica", sans-serif;
-    padding-top: 5px;
-  }
-  
-  form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    padding: .5rem 2%;
-  }
-  
-  form legend {
-    color: black;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    font-size: 1.2rem;
-  }
-  
-  form label.top, form label.info, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #EDEDED;
-    font-size: .8rem;
-  }
-  
-  form label.info input:required {
-    border-left: red solid 6px;
-  }
-  
-  form label.info input:required:valid {
-    border-left: green solid 6px;
-  }
-  
-  form label.top input, form label.info input, form label.storm select {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #000;
-    border-radius: 4px;
-    padding: .5rem;
-    color: black;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #ffffff;
-  }
-  
-  form label.radios {
-    display: block;
-    padding-top: 1em;
-  }
-  
-  form label.storm {
-    display: block;
-    padding: .75rem 0;
-    color: #EDEDED;
-  }
-  
-  form input.submit_button {
-    border: none;
-    background-color: #25131D;
-    color: white;
-    font-size: 1.5rem;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 2rem 5%;
-    width: 96%;
-    max-width: 20rem;
-  }
-  
-  footer {
-    min-width: 100%;
-	  height:fit-content;
-    background-color:#25131D;
-    color: white;
-    font-family: "Helvetica", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
-    border-radius: 15px;
-  }
-  
-  header {
-    color: #25131D;
-    align-items:center;
-    justify-content: center;
-    display: flex;
-    padding: 5px 0;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  header img {
-    height: 80px;
-    width: auto;
-    padding-right: 10px;
-  }
-  
-  .heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .heading h1 {
-    font-size: 1.8em;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 0px;
-  }
-  
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
-    text-shadow: 1px 1px 1px #EDEDED;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    text-shadow: 1px 1px 1px #EDEDED;
-  }
-  
-  h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-    color: #25131D;
-    text-shadow: .5px .5px .5px #EDEDED;
-  }
-  
-  h4 {
-    text-decoration: underline;
-    font-family: "Helvetica", sans-serif;
-  }
-  
-  .section_head {
-    text-align: center;
-    color: #25131D;
-  }
-  
-  main {
-    margin: auto;
-  }
-  
-  .motto {
-    font-style: italic;
-    font-size: .9em;
-    letter-spacing: 1pt;
-    color: black;
-  }
-  
-  nav {
-      margin: 0 auto;
-    background-color: #25131D;
-    border-radius: 15px;
-  }
-  
-  nav ul li a.active{
-    background-color: #25131D;
+}
+.home-flex {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #79446A;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: left;
+}
 
-  }
-  
-  .nav_bar {
-    list-style: none;
-    text-align: center;
-      padding: 0;
-  }
-  
-  .nav_bar li:first-child {
-      display: block;
-  }
-  
-  .nav_bar li {
-      display: none;
-  }
-  
-  .nav_bar a {
-      display: block;
-      padding: 0.75rem;
-      text-align: center;
-      text-decoration: none;
-      color: white;
-      font-weight: 700;
-  }
-  
-  .nav_bar a:hover {
-      color: #EDEDED;
-      background-color: #25131D;
-  }
-  
-  .responsive li {
-      display: block;
-  }
-  
-  p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    color:	#EDEDED;
-  }*/
+.headings {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+header img {
+  margin-left: 25px;
+  height: 80px;
+  width: auto;
+}
+
+body {
+  background-color: #85ACC0;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+nav a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: #79446A;
+}
+
+.nav_bar li:first-child {
+  display: block;
+}
+
+.nav_bar li {
+  display: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+nav ul li a.active {
+  background-color: #475766;
+}
+
+.nav_bar {
+  list-style: none;
+  text-align: left;
+}
+
+.responsive li {
+  display: block;
+  scroll-padding-block-end: 3px;
+}
+
+nav {
+  background-color: #79446A;
+}
+
+
+footer {
+  background-color: #79446A;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+p {
+  font-family: "Helvetica", sans-serif;
+  color: white;
+
+}
+
+main {
+  margin: 2%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+
+.nav_bar a {
+  text-align: left;
+  text-decoration: none;
+  color: white;
+
+}
+
+.nav_bar a:hover {
+  color: white;
+  background-color: black;
+}
+
+.school {
+  color: white;
+}
+
+.message {
+  font-style: italic;
+  color: white;
+}
+
+#copyright {
+  font-family: "Helvetica", sans-serif;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+
+form label.top,
+form label.info,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #EDEDED;
+  font-size: .8rem;
+}
+
+form label.info input:required {
+  border-left: red solid 6px;
+}
+
+form label.info input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label.top input,
+form label.info input,
+form label.storm select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #000;
+  border-radius: 4px;
+  padding: .5rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #ffffff;
+
+}
+
+form label.radios {
+  display: block;
+  padding-top: 1em;
+}
+
+form label.storm {
+  display: block;
+  padding: .75rem 0;
+  color: #EDEDED;
+
+
+}
+
+form input.submit_button {
+  border: none;
+  background-color: #475766;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 2rem 5%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+#comments {
+  height: 85px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
