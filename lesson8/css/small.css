@@ -136,7 +136,7 @@ form label.info,
 form div {
   display: block;
   padding-top: 1rem;
-  color: #EDEDED;
+  color: black;
   font-size: .8rem;
 }
 
@@ -171,7 +171,7 @@ form label.radios {
 form label.storm {
   display: block;
   padding: .75rem 0;
-  color: #EDEDED;
+  color: black;
 
 
 }
