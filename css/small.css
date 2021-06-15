@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 
-@media only screen and (max-width: 639px) {
 	body {
 		background-color: white;
 		font-family: "Open Sans", sans-serif;
@@ -16,7 +15,7 @@
 	}
 
 	hr {
-		overflow: hidden;
+		/*overflow: hidden;*/
 		border-style: inset;
 		border-width: 1px;
 	}
@@ -30,6 +29,8 @@
 	}
 
 	footer a {
+
+
 		color: rgba(0, 0, 0, 0.884)
 	}
 
@@ -38,7 +39,7 @@
 		background-color: #79446A;
 		border: 1px solid white;
 		border-radius: 12px;
-		text-align: center;
+		padding-left:2%;
 		color: rgba(0, 0, 0, 0.884)
 	}
 
@@ -61,10 +62,15 @@
 		list-style-type: none;
 	}
 
-	img {
+	img#side {
+		display: none;
+	}
+	img#top {
 		display: block;
+		align:left;
 		margin-left: auto;
 		margin-right: auto;
 		width: 195px;
+
+
 	}
-}
