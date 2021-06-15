@@ -5,7 +5,7 @@ const loadImages = (image) => {
     image.removeAttribute('data-src');
   };
 };
-s
+
 const imgOptions = {
   threshold: 0.5,
   rootMargin: "0px 0px -200px 0px"
