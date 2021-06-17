@@ -1,8 +1,4 @@
-@media only screen and (min-width: 32.5em) {
-
-    #announce {
-      height: 25px;
-    }
+@media only screen and (min-width: 40em)  {
   
     #article_img {
       padding-left: 5px;
@@ -24,64 +20,31 @@
       grid-row: 1;
     }
   
-    .contact_info {
-      grid-column: 2;
-      grid-row: 1;
-    }
-  
-    .contactdiv {
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    footer {
-      border-radius: 15px;
-      height: 55px;
-      max-width: 1000px;
-    }
-  
-    h1 {
-      font-size: 2.5em;
-      margin-top: 0px;
-    }
-  
-    h2 {
-      font-size: 1.8em;
-    }
-  
     header img {
-      height: 120px;
+      height: 130px;
       width: auto;
-      padding-right: 10px;
-    }
-  
-      .heading h1 {
-          font-size: 2.5em;
+      padding-right: 9px;
       }
-  
-      .motto {
-          letter-spacing: 1.5pt;
-          font-size: larger;
-    }
-    
-    main {
-      max-width: 1000px;
-    }
-  
+
     .nav_bar {
           display: flex;
     }
     
-      .nav_bar li {
-          display: block; 
-          flex: 1 1 auto;
+    .nav_bar li {
+      display: block;
+      padding-right: 15px;
     }
     
-      .nav_bar a {
-          text-align: center;
+    .nav_bar a {
+      text-align: left;
     }
+    
     
       .nav_bar li:first-child {
           display: none;
+    }
+    li {
+      display: inline-block;
     }
   
   }

@@ -12,14 +12,13 @@
     .heading h1 {
           font-size: 3em;
     }
-    
-    h2 {
-      font-size: 2.3em;
+    .nav_bar li {
+      padding-right: 20px;
     }
-  
-    h1 {
-      font-size: 3em;
-      margin-top: 0px;
+    footer,
+    main {
+   
+      margin: auto;
     }
     
   }  
