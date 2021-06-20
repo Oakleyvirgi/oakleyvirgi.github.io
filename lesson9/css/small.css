@@ -177,8 +177,38 @@ p {
   color: white;
 }
 
-#wireframes {
+
+
+.top_part {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.top_part img {
+  width: 100%;
+  height: auto;
+}
+.article p {
+  color: black;
+}
+
+.article {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  color: black;
+}
+.main_location {
+  color: black;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.wireframeImgs{
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  width: 50%;
 }
