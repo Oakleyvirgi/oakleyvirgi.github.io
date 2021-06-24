@@ -1,9 +1,9 @@
 @media only screen and (min-width: 40em) {
   body {
-		display: flex;
-		flex-direction: column;
-	}
-
+    display: flex;
+    flex-direction: column;
+  }
+  
   /*#article_img {
     padding-left: 5px;
     float: right;
@@ -29,15 +29,18 @@
     width: auto;
     padding-right: 9px;
   }
+  li {
+    display: inline-block;
+  }
 
   .nav_bar {
     display: flex;
-    
+
   }
 
   .nav_bar li {
     display: block;
-    padding-right: 15px;
+    padding-right: 20px;
   }
 
   .nav_bar a {
@@ -48,11 +51,10 @@
   .nav_bar li:first-child {
     display: none;
   }
-  li {
-    display: inline-block;
+  
+  footer {
+    margin-top: 15px;
   }
-footer {
-  margin-top: 15px;
-}
- 
+
+
 }
