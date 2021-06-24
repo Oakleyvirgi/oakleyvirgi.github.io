@@ -65,6 +65,7 @@ header {
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: left;
+  padding-bottom: 18px;
 }
 
 header img {
@@ -150,6 +151,8 @@ nav {
 nav ul {
   list-style: none;
   text-align: center;
+  margin:0;
+  padding-bottom: 18px;
 }
 
 nav ul li a.active {
@@ -167,6 +170,7 @@ nav ul li a.active {
 
 .nav_bar li {
   display: none;
+  
 }
 
 li {
