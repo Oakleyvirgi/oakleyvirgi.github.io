@@ -17,11 +17,11 @@ document.getElementById("copyright").innerHTML = year;
 
 //Friday Announcement
 if (day1[day] == 'Friday') {
-    document.getElementById("announce").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
-    document.getElementById("announce").style.display = "block";
+    document.getElementById("onlyFriday").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+    document.getElementById("onlyFriday").style.display = "block";
 }
 else {
-    document.getElementById("announce").style.display = "none";
+    document.getElementById("onlyFriday").style.display = "none";
 }
 
 // Current Weather for Weather Summary
@@ -30,7 +30,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((town) => {
-    console.log(town);
+    //console.log(town);
     let description = town.weather[0].description;
     document.getElementById('currently').innerHTML = description.charAt(0).toUpperCase() + description.slice(1);
     document.getElementById('temp').innerHTML = Math.round(town.main.temp);
@@ -45,10 +45,10 @@ const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=560
 fetch(apiURL_forecast)
     .then(response => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
         const forecastData = jsObject.list.filter((element)=>element.dt_txt.includes('18:00:00'));
 
-	console.log(forecastData);
+	//console.log(forecastData);
 
 	const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
 
