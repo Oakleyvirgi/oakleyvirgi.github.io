@@ -1,26 +1,7 @@
 @media only screen and (min-width: 60em) {
-
-  /*.heading h1 {
-          font-size: 3em;
-    }
-    
-    h2 {
-      font-size: 2.3em;
-    }
-  
-    h1 {
-      font-size: 3em;
-      margin-top: 0px;
-    }*/
-
   body {
     display: flex;
     flex-direction: column;
-  }
-
-  .forecast {
-    display: inline-block;
-    margin: 10px;
   }
 
   li {
@@ -44,14 +25,30 @@
     display: none;
   }
 
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+  .cards section {
+    display: block;
+    width: 325px;
+
+  }
+
+  .heading h1 {
+    font-size: 3em;
+  }
+
+  /*.nav_bar li {
+    padding-right: 20px;
+  }*/
+  footer,
   main {
     width: 80%;
     margin: auto;
   }
-
-  #forecastTitle {
-    margin-top: 5%;
-  }
+footer{
+  margin-top: 15px;
+}
 
 }

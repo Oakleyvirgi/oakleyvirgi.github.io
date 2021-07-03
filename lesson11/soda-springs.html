@@ -1,132 +1,152 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Assignment for Katherine Campbell in WDD 230: Web Frontend Development I at Brigham Young University - Idaho">
-        <link rel="icon" href="favicon.ico">
-        <link rel="stylesheet" href="/lesson10/css/normalize.css">
-    <link rel="stylesheet" href="/lesson10/css/small.css">
-    <link rel="stylesheet" href="/lesson10/css/medium.css">
-    <link rel="stylesheet" href="/lesson10/css/large.css">       
-        <title>The Weather Site Home Page</title>
-      </head>
-  <body>
-    <header>
-        <img src="/lesson9/images/weather4real.png" alt="Weather Site Logo">
-        <section class="heading">
-          <h1>Weather 4 Real</h1>
-          <div class="motto">The most accurate weather ever!</div>
-        </section>
-      </header>
-    <nav>
-      <ul class="nav_bar">
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-        <li><a href="/lesson11/lesson11.html">Home</a></li>
-        <li><a href="/lesson11/preston.html">Preston</a></li>
-        <li><a class="active" href="/lesson11/soda-springs.html">Soda Springs</a></li>
-        <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
-        <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
-        <li><a href="/lesson11/gallery.html">Gallery</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h2 class= "section_head">Soda Springs</h2>
-      <div class="herodiv">
-        <picture>
-          <source media="(max-width: 400px)" srcset="/lesson11/images/snow_400.png">
-          <source media="(max-width: 800px)" srcset="/lesson11/images/snow_800.png">
-          <img src="/lesson11/images/snow_1200.png" alt="Soda Springs Sign">
-        </picture>
-				<section class="summary">
-          <h3>Weather Summary</h3>
-            <p>Currently: 
-              <span id="currently"></span>
-            </p>
-            <p>Temp: 
-              <span id="temp"></span>
-            &#176;F</p>
-            <p>Wind Chill: 
-              <span id="windchill"></span>
-            </p>
-            <p>Humidity: 
-              <span id="humidity"></span>
-            %</p>
-            <p>Wind Speed: 
-              <span id="windspeed"></span>
-            mph</p>
-  			</section>
-      </div>
-      <h3 id="forecastTitle">5 Day Forecast</h3>
-      <div class="forecastdiv">
-        <div class="forecasts">
-          <div id="day1"></div>
-          <img src="#" alt="" id="img1">
-          <div id="temp1"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day2"></div>
-          <img src="#" alt="" id="img2">
-          <div id="temp2"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day3"></div>
-          <img src="#" alt="" id="img3">
-          <div id="temp3"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day4"></div>
-          <img src="#" alt="" id="img4">
-          <div id="temp4"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day5"></div>
-          <img src="#" alt="" id="img5">
-          <div id="temp5"></div>
-        </div>
-      </div>
-      <section class="townEvents">
-        <h3>Upcoming Town Events</h3>
-        <hr>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Assignment for Katherine Campbell in WDD 230: Web Frontend Development I at Brigham Young University - Idaho">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="/lesson10/css/normalize.css">
+  <link rel="stylesheet" href="/lesson10/css/small.css">
+  <link rel="stylesheet" href="/lesson10/css/medium.css">
+  <link rel="stylesheet" href="/lesson10/css/large.css">
+  <title>The Weather Site Home Page</title>
+</head>
+
+<body>
+  <header>
+    <img src="/lesson9/images/weather4real.png" alt="Weather Site Logo">
+    <section class="heading">
+      <h1>Weather 4 Real</h1>
+      <div class="motto">The most accurate weather ever!</div>
+    </section>
+  </header>
+  <nav>
+    <ul class="nav_bar">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a  href="/lesson11/index.html">Home</a></li>
+      <li><a href="/lesson10/preston.html">Preston</a></li>
+      <li><a class="active" href="/lesson11/soda-springs.html">Soda Springs</a></li>
+      <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+      <li><a href="/lesson8/lesson8.html">Storm Center</a></li>
+      <li><a href="/lesson7/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2 class="section_head">Soda Springs</h2>
+    <div class="herodiv">
+      <picture>
+        <source media="(max-width: 400px)" srcset="/lesson11/images/snow_400.png">
+        <source media="(max-width: 800px)" srcset="/lesson11/images/snow_800.png">
+        <img src="/lesson11/images/snow_1200.png" alt="Soda Springs Sign">
+      </picture>
+      <section class="summary">
+        <h3>Weather Summary</h3>
+        <p>Currently:
+          <span id="currently"></span>
+        </p>
+        <p>Temp:
+          <span id="temp"></span>
+          &#176;F</p>
+        <p>Wind Chill:
+          <span id="windchill"></span>
+        </p>
+        <p>Humidity:
+          <span id="humidity"></span>
+          %</p>
+        <p>Wind Speed:
+          <span id="windspeed"></span>
+          mph</p>
       </section>
-      <div class="articlediv">
-        <picture>
-          <img id="article_img" src="/lesson11/images/after_rain.png" alt="article Image">
-        </picture>
-        <h3>Geyser Park in Soda Springs</h3>
-        <p>Soda Springs is a group of thousands of natural carbonated springs in the area of Soda Springs, Idaho. The springs were a landmark on the Oregon Trail.</p>
+    </div>
+    <h3 id="forecastTitle">5 Day Forecast</h3>
+    <div class="forecastdiv">
+      <div class="forecasts">
+        <div id="day1"></div>
+        <img src="#" alt="" id="img1">
+        <div id="temp1"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day2"></div>
+        <img src="#" alt="" id="img2">
+        <div id="temp2"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day3"></div>
+        <img src="#" alt="" id="img3">
+        <div id="temp3"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day4"></div>
+        <img src="#" alt="" id="img4">
+        <div id="temp4"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day5"></div>
+        <img src="#" alt="" id="img5">
+        <div id="temp5"></div>
+      </div>
+    </div>
+    <section class="townEvents">
+      <h3>Upcoming Town Events</h3>
+      <hr>
+    </section>
+    <div class="articlediv">
+      <picture>
+        <img id="article_img" src="/lesson11/images/after_rain.png" alt="article Image">
+      </picture>
+      <h3>Geyser Park in Soda Springs</h3>
+      <p>Soda Springs is a group of thousands of natural carbonated springs in the area of Soda Springs, Idaho. The
+        springs were a landmark on the Oregon Trail.</p>
 
-        <p>I have visited Geyser Park in Soda Springs many times during my life.  I remember coming here when I was very young and being amazed at the geyser and the surrounding orange-ish buildup.  Even now I still feel it is a great place to stop.</p>
+      <p>I have visited Geyser Park in Soda Springs many times during my life. I remember coming here when I was very
+        young and being amazed at the geyser and the surrounding orange-ish buildup. Even now I still feel it is a great
+        place to stop.</p>
 
-        <p>Geyser Park is located downtown Soda Springs behind several of the buildings on Main Street.  I have always enjoyed coming here, seeing the geyser and then eating in town when visiting.</p>
-          
-        <p>The geyser has a very interesting history.  Trying to find a hot water source for their planned swimming pool, a drilling company drilled down some 300 ft in November 1937 until they reached a large chamber. Inside this chamber, carbon dioxide gas mixes with the underground water building up pressure which then makes the water shoot out of the drill hole.  The geyser can reach heights of around 100 ft.  A timer and cap control the geyser so it erupts every half hour, on the hour, year round.--<a href="https://thetrekplanner.com/geyser-park-soda-springs-idaho/">READ MORE at Trek Planner</a></p>
+      <p>Geyser Park is located downtown Soda Springs behind several of the buildings on Main Street. I have always
+        enjoyed coming here, seeing the geyser and then eating in town when visiting.</p>
+
+      <p>The geyser has a very interesting history. Trying to find a hot water source for their planned swimming pool, a
+        drilling company drilled down some 300 ft in November 1937 until they reached a large chamber. Inside this
+        chamber, carbon dioxide gas mixes with the underground water building up pressure which then makes the water
+        shoot out of the drill hole. The geyser can reach heights of around 100 ft. A timer and cap control the geyser
+        so it erupts every half hour, on the hour, year round.--<a
+          href="https://thetrekplanner.com/geyser-park-soda-springs-idaho/">READ MORE at Trek Planner</a></p>
+    </div>
+    <div class="contactdiv">
+      <a id="map_link"
+        href="https://www.google.com/maps/place/Soda+Springs,+ID+83276/@42.6614075,-111.6237916,13z/data=!3m1!4b1!4m5!3m4!1s0x8755968bb0047ae5:0x9d3970a1a6df8e12!8m2!3d42.6543652!4d-111.6046687">
+        <img id="map" src="/lesson11/images/sodasprings_map.jpg" alt="Soda Springs Map">
+      </a>
+      <div class="contact_info">
+        <h4>Contact Information</h4>
+        <h3>6321 4th Real</h3>
+        <h3>Preston, Idaho 83263</h3>
+        <h3>&#9742; 888-777-9999</h3>
+        <h3>&#9993;contact@weather4real.com</h3>
       </div>
-      <div class="contactdiv">
-        <a id="map_link" href="https://www.google.com/maps/place/Soda+Springs,+ID+83276/@42.6614075,-111.6237916,13z/data=!3m1!4b1!4m5!3m4!1s0x8755968bb0047ae5:0x9d3970a1a6df8e12!8m2!3d42.6543652!4d-111.6046687">
-          <img id="map" src="/lesson11/images/sodasprings_map.jpg" alt="Soda Springs Map">
-        </a>
-        <div class="contact_info">
-            <h4>Contact Information</h4>
-            <h3>6321 4th Real</h3>
-            <h3>Preston, Idaho 83263</h3>
-            <h3>&#9742; 888-777-9999</h3>
-            <h3>&#9993;contact@weather4real.com</h3>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>
-        &copy;<span id="copyright"></span> | Virgithmar Oakley | North Carolina | <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | <a href="https://openweathermap.org/">Open Weather Map</a>
-      </div>
-      <span id="dates"></span>
-    </footer>
-    <script src="/lesson11/js/sodasprings.js"></script>
-    <script src="/lesson11/js/windchill.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
-    </script>
-    <script>
-      WebFont.load({google: {families: ['Fira Sans', 'Titillium Web']}});
-    </script>
-  </body>
+    </div>
+  </main>
+  <footer>
+    <div>
+      &copy;<span id="copyright"></span> | Virgithmar Oakley | North Carolina | <a
+        href="https://www.byui.edu/online">BYU-I Online Learning</a> | <a href="https://openweathermap.org/">Open
+        Weather Map</a>
+    </div>
+    <span id="dates"></span>
+  </footer>
+  <script src="/lesson11/js/sodasprings.js"></script>
+  <script src="/lesson11/js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+  </script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Fira Sans', 'Titillium Web']
+      }
+    });
+  </script>
+</body>
+
 </html>
