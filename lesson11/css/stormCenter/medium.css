@@ -1,0 +1,32 @@
+@media only screen and (min-width: 40em)  {
+  body {
+		display: flex;
+		flex-direction: column;
+	}
+ 
+	.nav_bar {
+		display: flex;
+	}
+
+	.nav_bar li {
+		display: block;
+		padding-right: 15px;
+	}
+	.nav_bar a {
+		text-align: left;
+	}
+	.nav_bar li:first-child {
+		display: none;
+	}
+  li {
+		display: inline-block;
+	}
+
+	  header img {
+		height: 130px;
+		width: auto;
+		padding-right: 9px;
+	  }
+   
+}
+
