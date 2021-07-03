@@ -1,6 +1,6 @@
 @media only screen and (min-width: 60em) {
-  
-    /*.heading h1 {
+
+  /*.heading h1 {
           font-size: 3em;
     }
     
@@ -13,45 +13,49 @@
       margin-top: 0px;
     }*/
 
-    body {
-      display: flex;
-      flex-direction: column;
-    }
-    .forecast {
-      display:inline-block;
-      margin: 10px;
-    }
-    li {
-      display: inline-block;
-    }
-    
-    .nav_bar {
-      display: flex;
-    }
-  
-    .nav_bar li {
-      display: block;
-      padding-right: 20px;
-    }
-    .nav_bar a {
-      text-align: left;
-    }
-    .nav_bar li:first-child {
-      display: none;
-    }
-    
-    #articlePhoto {
-      width: 20%;
-      height: 20%;
-    }
-    
-    footer,
-    main {
-      width: 80%;
-      margin: auto;
-    }
-    
-    #forecastTitle {
-      margin-top:5%;
-    }
-  }  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .forecast {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .nav_bar {
+    display: flex;
+  }
+
+  .nav_bar li {
+    display: block;
+    padding-right: 20px;
+  }
+
+  .nav_bar a {
+    text-align: left;
+  }
+
+  .nav_bar li:first-child {
+    display: none;
+  }
+
+  #articlePhoto {
+    width: 20%;
+    height: 20%;
+  }
+
+  footer,
+  main {
+    width: 80%;
+    margin: auto;
+  }
+
+  #forecastTitle {
+    margin-top: 5%;
+  }
+}
