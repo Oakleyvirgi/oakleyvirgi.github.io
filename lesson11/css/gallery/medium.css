@@ -1,0 +1,37 @@
+@media only screen and (min-width: 40em) {
+ 
+	/*body {
+		display: flex;
+	}*/
+	.nav_bar {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav_bar li {
+		display: block;
+		padding-right: 15px;
+	}
+	.nav_bar a {
+		text-align: left;
+	}
+	.nav_bar li:first-child {
+		display: none;
+	}
+	
+
+	h1 {
+		
+	  }
+
+	  header img {
+		height: 130px;
+		width: auto;
+		
+	  }
+	
+	
+	.galleryImages {
+		grid-template-columns: 1fr 1fr;
+	  }
+}

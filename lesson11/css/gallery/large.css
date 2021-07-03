@@ -1,0 +1,47 @@
+@media only screen and (min-width: 60em) {
+
+	body {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	img {
+		display: block;
+		
+	}
+
+	.nav_bar {
+		display: flex;
+
+	}
+
+	.nav_bar li {
+		display: block;
+		padding-right: 20px;
+
+	}
+
+	.nav_bar a {
+		text-align: left;
+	}
+
+	.nav_bar li:first-child {
+		display: none;
+	}
+
+	main {
+		width: 80%;
+		margin: auto;
+	}
+
+	.galleryImages {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+
+}
