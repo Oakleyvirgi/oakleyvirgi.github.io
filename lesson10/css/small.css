@@ -54,12 +54,14 @@
 
   .contactInfo {
     display: grid;
-    grid-column: 1;
+    grid-template-columns: 1fr 1fr;
     grid-row: 1;
   }
 
   .contact {
     grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .article img {
@@ -225,20 +227,32 @@ nav ul {
 }
 
 .contactInfo {
-  grid-column: 1;
-  margin: auto;
+  display: grid;
+  grid-row: 1;
 }
 
-.contactInfo h3,
-.contactInfo h4 {
-  font-size: small;
-  font-weight: normal;
+.contact h3 {
   color: white;
+  text-align: left;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.contactInfo h4 {
+  font-weight: bold;
+  color: white;
+
+}
+
+.contactInfo p {
+  font-size: medium;
 }
 
 .contact {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding: 10px;
   border: 1px solid black;
   background-color: #475766
@@ -251,8 +265,7 @@ h3 {
 }
 
 h4 {
-  text-align: center;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   font-family: "Helvetica", sans-serif;
 }
 
@@ -322,14 +335,22 @@ a {
   height: 25%;
 }
 
-
-
-
-
-
-.contact h4 {
-  text-decoration: underline;
+.address {
+  grid-row: 1;
+  grid-column: 1;
 }
+
+.phone {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+
+
+
+/*.contact h4 {
+  text-decoration: underline;
+}*/
 
 
 
