@@ -6,10 +6,10 @@
 <meta name="description"
   content="Assignment portal for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
 <link rel="shortcut icon" href="/iconImage.ico">
-<link rel="stylesheet" href="cssHome/normalize.css">
-<link rel="stylesheet" href="cssHome/small.css">
-<link rel="stylesheet" href="cssHome/medium.css">
-<link rel="stylesheet" href="cssHome/large.css">
+<link rel="stylesheet" href="css/Home/normalize.css">
+<link rel="stylesheet" href="css/Home/small.css">
+<link rel="stylesheet" href="css/Home/medium.css">
+<link rel="stylesheet" href="css/Home/large.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 </head>
 
@@ -26,20 +26,20 @@
     <ul class="nav_bar">
       <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
       <li><a class="active" href="/lesson11/index.html">Home</a></li>
-      <li><a href="/lesson10/preston.html">Preston</a></li>
+      <li><a href="/lesson11/preston.html">Preston</a></li>
       <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
       <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
-      <li><a href="/lesson8/lesson8.html">Storm Center</a></li>
-      <li><a href="/lesson7/gallery.html">Gallery</a></li>
+      <li><a  href="/lesson11/stormcenter.html">Storm Center</a></li>
+      <li><a href="/lesson11/gallery.html">Gallery</a></li>
     </ul>
   </nav>
   <main>
     <h2 class="main_location">Home</h2>
     <div class="top_part">
       <picture>
-        <source media="(max-width:400px)" srcset="images/small.jpg">
-        <source media="(max-width:800px)" srcset="images/medium.jpg">
-        <img src="images/large.jpg" alt="background">
+        <source media="(max-width:400px)" srcset="/lesson11/images/Home/home400.jpg">
+        <source media="(max-width:800px)" srcset="/lesson11/images/Home/home800.jpg">
+        <img src="/lesson11/images/Home/home1200.jpg" alt="background">
       </picture>
       <div class="article">
         <h3>Article</h3>
@@ -59,14 +59,10 @@
     </div>
   </main>
   <footer>
-    <div>
-      &copy;<span id="copyright"></span> | Virgithmar Oakley | <a class="school" href="https://www.byui.edu/online">
-        BYU-I Online
-        Learning</a><br>
-    </div>
-    <span id="dates"></span>
+    &copy; <span id="copyright"></span> &bull; Virgithmar Oakley &bull; <a href="https://www.byui.edu/online">BYU-I Online
+      Learning</a> &bull; Last updated <span id="dates"></span>
   </footer>
-  <script src="js/scriptHome.js"></script>
+  <script src="/lesson11/js/Home/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
   </script>
   <script>

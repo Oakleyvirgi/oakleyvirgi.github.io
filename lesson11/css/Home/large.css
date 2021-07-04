@@ -39,16 +39,9 @@
     font-size: 3em;
   }
 
-  /*.nav_bar li {
-    padding-right: 20px;
-  }*/
-  footer,
   main {
     width: 80%;
     margin: auto;
   }
-footer{
-  margin-top: 15px;
-}
 
 }

@@ -52,12 +52,17 @@ body {
   padding-top: 5px;
 }
 
+a {
+  color: white;
+}
+
 footer {
   background-color: #79446A;
-  text-align: center;
-  font-family: "Helvetica", sans-serif;
   color: white;
-  margin-top: 15px;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header {
