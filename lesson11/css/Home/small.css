@@ -1,7 +1,6 @@
 @media only screen and (max-width: 639px) {
   body {
     flex-direction: row;
-     margin: 0 auto;
   }
 }
 
@@ -49,7 +48,7 @@ body {
 #dates {
   font-size: 1.0em;
   font-family: 'Titillium Web', sans-serif;
-  padding-top: 5px;
+  padding-top: 6px;
 }
 
 a {
@@ -67,29 +66,21 @@ footer {
 
 header {
   background-color: #79446A;
-  font-family: 'Roboto', sans-serif;
-  display: flex;
   justify-content: left;
-  padding-bottom: 18px;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  /*padding-bottom: 18px;*/
 }
 
 header img {
   margin-left: 25px;
-  height: 80px;
-  width: auto;
 }
 
 
-.heading {
+.headings {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.heading h1 {
-  font-size: 1.8em;
-  font-family: Century-Schoolbook;
-  margin-bottom: 0px;
+  height: fit-content;
 }
 
 #homeTitle {
@@ -104,6 +95,7 @@ header img {
 }
 
 h1 {
+  width: 100%;
   color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -128,8 +120,10 @@ h4 {
 }
 
 .section_head {
-  text-align: center;
-
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
 
 /*main {
@@ -155,8 +149,8 @@ nav {
 nav ul {
   list-style: none;
   text-align: center;
-  margin:0;
-  padding-bottom: 18px;
+  /*margin:0;
+  padding-bottom: 18px;*/
 }
 
 nav ul li a.active {
