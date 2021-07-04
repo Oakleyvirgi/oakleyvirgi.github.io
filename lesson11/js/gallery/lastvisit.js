@@ -3,7 +3,7 @@ let now = new Date();
 let lastVisit = new Date(localStorage.getItem("lastVisitTime"));
 const diffTime = now - lastVisit;
 const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
-console.log(diffDays + " days");
+//console.log(diffDays + " days");
 
 if (diffDays < 2) {
   if (diffDays == 1) {

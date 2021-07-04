@@ -110,17 +110,16 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
-  font-family: Century-Schoolbook;
-
-  text-shadow: 1px 1px 1px #EDEDED;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin: 30px;
 }
 
 h3 {
-  font-family: Century-Schoolbook;
-  font-size: 1.2em;
-
-  text-shadow: .5px .5px .5px #EDEDED;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
 }
 
 h4 {

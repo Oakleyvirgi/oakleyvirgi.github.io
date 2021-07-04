@@ -21,7 +21,7 @@ function toggleMenu() {
   fetch(apiURL)
   .then((response) => response.json())
   .then((town) => {
-    console.log(town);
+    //console.log(town);
     let description = town.weather[0].description;
     document.getElementById('currently').innerHTML = description.charAt(0).toUpperCase() + description.slice(1);
     document.getElementById('temp').innerHTML = Math.round(town.main.temp);
@@ -36,10 +36,10 @@ function toggleMenu() {
   fetch(apiURL_forecast)
     .then(response => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
         const forecastData = jsObject.list.filter((element)=>element.dt_txt.includes('18:00:00'));
   
-  console.log(forecastData);
+  //console.log(forecastData);
   
   const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
   
@@ -54,7 +54,7 @@ function toggleMenu() {
   });
   });
   
-  //Get town events section information
+  //Events
   const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
   
   fetch(requestURL)
@@ -69,7 +69,7 @@ function toggleMenu() {
         for (let i=0; i < events.length; i++) {
         let event = document.createElement('p');
         event.innerHTML = events[i];
-        document.querySelector('.townEvents').appendChild(event);
+        document.querySelector('div.event').appendChild(event);
         }
       }
      }

@@ -1,137 +1,161 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Virgithmar Oakley">
-    <meta name="description" content="Preston Town Weather Page">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="/lesson10/css/normalize.css">
-    <link rel="stylesheet" href="/lesson10/css/small.css">
-    <link rel="stylesheet" href="/lesson10/css/medium.css">
-    <link rel="stylesheet" href="/lesson10/css/large.css">      
-    <title>Preston Town Weather</title>
-  </head>
-  <body>
-    <div id="announce" style="display: block;"></div>
+
+<head>
+  <title>W10 Preston Town Weather</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Assignment portal for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <meta name="author" content="Virgithmar Oakley">
+  <link rel="shortcut icon" href="/iconImage.ico">
+  <link rel="stylesheet" href="css/Preston/normalized.css">
+  <link rel="stylesheet" href="css/Preston/small.css">
+  <link rel="stylesheet" href="css/Preston/medium.css">
+  <link rel="stylesheet" href="css/Preston/large.css">
+</head>
+
+<body>
+  <div id="onlyFriday"></div>
+  <div class="home-flex">
     <header>
-      <img src="/lesson10/images/weather4real.png" alt="Weather Site Logo">
-      <section class="heading">
+      <img src="/lesson11/images/Preston/weather4real.png" alt="Weather Site Logo">
+      <section class="headings">
         <h1>Weather 4 Real</h1>
-        <div class="motto">The most accurate weather ever!</div>
+        <p class="message">The most accurate weather ever!</p>
       </section>
     </header>
     <nav>
-        <ul class="nav_bar">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="/lesson11/lesson11.html">Home</a></li>
-            <li><a class="active" href="/lesson11/preston.html">Preston</a></li>
-            <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
-            <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
-            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
-            <li><a href="/lesson11/gallery.html">Gallery</a></li>
-          </ul>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/lesson11/index.html">Home</a></li>
+        <li><a class="active" href="/lesson11/preston.html">Preston</a></li>
+        <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
+        <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+        <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+      </ul>
     </nav>
-    <main>
-      <h2 class= "section_head">Preston</h2>
-      <div class="herodiv">
-        <picture>
-          <source media="(max-width: 400px)" srcset="/lesson10/images/article_400.png">
-          <source media="(max-width: 800px)" srcset="/lesson10/images/article_800.png">
-          <img src="/lesson10/images/article_1200.png" alt="Preston Farmland">
-        </picture>
-				<section class="summary">
-          <h3>Weather Summary</h3>
-            <p>Currently: 
-              <span id="currently"></span>
-            </p>
-            <p>Temp: 
-              <span id="temp"></span>
-            &#176;F</p>
-            <p>Wind Chill: 
-              <span id="windchill"></span>
-            </p>
-            <p>Humidity: 
-              <span id="humidity"></span>
-            %</p>
-            <p>Wind Speed: 
-              <span id="windspeed"></span>
-            mph</p>
-  			</section>
-      </div>
-      <h3 id="forecastTitle">5 Day Forecast</h3>
-      <div class="forecastdiv">
-        <div class="forecasts">
-          <div id="day1"></div>
-          <img src="#" alt="" id="img1">
-          <div id="temp1"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day2"></div>
-          <img src="#" alt="" id="img2">
-          <div id="temp2"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day3"></div>
-          <img src="#" alt="" id="img3">
-          <div id="temp3"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day4"></div>
-          <img src="#" alt="" id="img4">
-          <div id="temp4"></div>
-        </div>
-        <div class="forecasts">
-          <div id="day5"></div>
-          <img src="#" alt="" id="img5">
-          <div id="temp5"></div>
-        </div>
-			</div>
-      <div class="articlediv">
-        <picture>
-          <source media="(max-width: 400px)" srcset="../lesson10/images/trees_400.png">
-          <source media="(max-width: 800px)" srcset="/lesson10/images/trees_800.png">
-          <img id="article_img" src="/lesson10/images/trees_1200.png" alt="tree Image">
-        </picture>
-        <h3>Articles</h3>
-        <p>BOISE, Idaho — Just looking at the temperatures we've seen in Boise so far this year, we really could
-            call this a "warm winter." Through January and February (so far), there were 8 days with high temps at
-            50° or warmer, and only 5 days with high temps in the 30s. So far this year, only two days had below
-            average high temps.</p>
-        <p>For Tuesday, look for mostly sunny skies (clouds to start, with clearing expected). Treasure Valley high
-            temps will be in the mid 40s. It's a similar story for Wednesday, with valley highs approaching 50° once
-            again.</p>
-        <p>Yes, you read that right, there's a good chance that the Treasure Valley will see some snow accumulation
-            later this week and this weekend. It's an active pattern that continues to bring rounds of moisture in
-            our direction for a few days. High temperatures for the valleys will be in the 30s -- below average, for
-            a change.<a class="source" href="https://www.ktvb.com/article/weather/idaho-weather-forecast-treasure-valley-boise-meridian-nampa-caldwell/277-314988364">KTVB7</a>
+  </div>
+
+  <main>
+    <h2 class="main_location">Preston</h2>
+    <div class="top_part">
+      <picture>
+        <source media="(max-width: 400px)" srcset="/lesson11/images/Preston/small.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson11/images/Preston/medium.jpg">
+        <img src="/lesson11/images/Preston/large.jpg" alt="Preston Farmland">
+      </picture>
+      <section class="summary">
+        <h3>Weather Summary</h3>
+        <p>Currently:
+          <span id="currently"></span>
         </p>
+        <p>Temp:
+          <span id="temp"></span>
+          &#176;F</p>
+        <p>Wind Chill:
+          <span id="windchill"></span>
+        </p>
+        <p>Humidity:
+          <span id="humidity"></span>
+          %</p>
+        <p>Wind Speed:
+          <span id="windspeed"></span>
+          mph</p>
+      </section>
+    </div>
+    <h3 id="forecastTitle">5 Day Forecast</h3>
+    <div class="forecastdiv">
+      <div class="forecasts">
+        <div id="day1"></div>
+        <img src="#" alt="" id="img1">
+        <div id="temp1"></div>
       </div>
-      <div class="contactdiv">
-        <a id="map_link" href="https://www.google.com/maps/@42.0997416,-111.9153445,13z">
-          <img id="map" src="/lesson10/images/preston_map.jpg" alt="Preston Map">
-        </a>
-        <div class="contact_info">
-          <h4>Contact Information</h4>
-          <h3>6321 4th Real</h3>
-          <h3>Preston, Idaho 83263</h3>
-          <h3>&#9742; 888-777-9999</h3>
-          <h3>&#9993;contact@weather4real.com</h3>
+      <div class="forecasts">
+        <div id="day2"></div>
+        <img src="#" alt="" id="img2">
+        <div id="temp2"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day3"></div>
+        <img src="#" alt="" id="img3">
+        <div id="temp3"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day4"></div>
+        <img src="#" alt="" id="img4">
+        <div id="temp4"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day5"></div>
+        <img src="#" alt="" id="img5">
+        <div id="temp5"></div>
+      </div>
+    </div>
+    <div class="article">
+      <h3>Article</h3>
+      <picture>
+        <source media="(max-width: 400px)" srcset="../lesson10/images/trees400.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson10/images/trees800.jpg">
+        <img id="article_img" src="/lesson10/images/trees1200.jpg" alt="tree Image">
+      </picture>
+
+      <p>BOISE, Idaho — Just looking at the temperatures we've seen in Boise so far this year, we really could
+        call this a "warm winter." Through January and February (so far), there were 8 days with high temps at
+        50° or warmer, and only 5 days with high temps in the 30s. So far this year, only two days had below
+        average high temps.</p>
+      <p>For Tuesday, look for mostly sunny skies (clouds to start, with clearing expected). Treasure Valley high
+        temps will be in the mid 40s. It's a similar story for Wednesday, with valley highs approaching 50° once
+        again.</p>
+      <p>Yes, you read that right, there's a good chance that the Treasure Valley will see some snow accumulation
+        later this week and this weekend. It's an active pattern that continues to bring rounds of moisture in
+        our direction for a few days. High temperatures for the valleys will be in the 30s -- below average, for
+        a change.
+        <a class="source"
+          href="https://www.ktvb.com/article/weather/idaho-weather-forecast-treasure-valley-boise-meridian-nampa-caldwell/277-314988364">KTVB7</a>
+      </p>
+    </div>
+
+    <h2 class="events">Upcoming Events</h2>
+    <div class="event"></div>
+
+    <div class="contact">
+
+      <h3>Contact Us</h3>
+      <section class="contactInfo">
+        <div class="address">
+          <h4>Address:</h4>
+          <p>456 Weather 4 Real.<br>
+            Preston, Idaho 83263.</p>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div>
-        &copy;<span id="copyright"></span> | Virgithmar Oakley | North Carolina | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
-      </div>
-      <span id="dates"></span>
-    </footer>
-    <script src="/lesson10/js/script.js"></script>
-    <script src="/lesson10/js/windchill.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
-    </script>
-    <script>
-      WebFont.load({google: {families: ['Fira Sans', 'Titillium Web']}});
-    </script>
-  </body>
+        <div class="phone">
+          <h4>Phone:</h4>
+          <p>(888) 777-9999</p>
+          <h4>Email:</h4>
+          <p>contact@weather4real.com</p>
+        </div>
+      </section>
+      <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+      </iframe>
+    </div>
+  </main>
+  <footer>
+    &copy; <span id="copyright"></span> &bull; Virgithmar Oakley &bull; <a href="https://www.byui.edu/online">BYU-I
+      Online
+      Learning</a> &bull; Last updated <span id="dates"></span>
+  </footer>
+  <script src="/lesson11/js/script.js"></script>
+  <!--<script src="/lesson11/js/Preston/windchill.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+  </script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Fira Sans', 'Titillium Web']
+      }
+    });
+  </script>
+</body>
+
 </html>

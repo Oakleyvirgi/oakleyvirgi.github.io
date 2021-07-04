@@ -2,44 +2,49 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="utf-8">
+  <title>W10 Preston Town Weather</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Assignment for Katherine Campbell in WDD 230: Web Frontend Development I at Brigham Young University - Idaho">
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="/lesson10/css/normalize.css">
-  <link rel="stylesheet" href="/lesson10/css/small.css">
-  <link rel="stylesheet" href="/lesson10/css/medium.css">
-  <link rel="stylesheet" href="/lesson10/css/large.css">
-  <title>The Weather Site Home Page</title>
+    content="Assignment portal for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <meta name="author" content="Virgithmar Oakley">
+  <link rel="shortcut icon" href="/iconImage.ico">
+  <link rel="stylesheet" href="css/Preston/normalized.css">
+  <link rel="stylesheet" href="css/Preston/small.css">
+  <link rel="stylesheet" href="css/Preston/medium.css">
+  <link rel="stylesheet" href="css/Preston/large.css">
 </head>
 
 <body>
-  <header>
-    <img src="/lesson9/images/weather4real.png" alt="Weather Site Logo">
-    <section class="heading">
-      <h1>Weather 4 Real</h1>
-      <div class="motto">The most accurate weather ever!</div>
-    </section>
-  </header>
-  <nav>
-    <ul class="nav_bar">
-      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-      <li><a  href="/lesson11/index.html">Home</a></li>
-      <li><a href="/lesson10/preston.html">Preston</a></li>
-      <li><a class="active" href="/lesson11/soda-springs.html">Soda Springs</a></li>
-      <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
-      <li><a href="/lesson8/lesson8.html">Storm Center</a></li>
-      <li><a href="/lesson7/gallery.html">Gallery</a></li>
-    </ul>
-  </nav>
+  <div id="onlyFriday"></div>
+  <div class="home-flex">
+    <header>
+      <img src="/lesson11/images/Preston/weather4real.png" alt="Weather Site Logo">
+      <section class="headings">
+        <h1>Weather 4 Real</h1>
+        <p class="message">The most accurate weather ever!</p>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/lesson11/index.html">Home</a></li>
+        <li><a href="/lesson11/preston.html">Preston</a></li>
+        <li><a class="active" href="/lesson11/soda-springs.html">Soda Springs</a></li>
+        <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+        <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <main>
-    <h2 class="section_head">Soda Springs</h2>
-    <div class="herodiv">
+    <h2 class="main_location">Soda Springs</h2>
+    <div class="top_part">
       <picture>
-        <source media="(max-width: 400px)" srcset="/lesson11/images/snow_400.png">
-        <source media="(max-width: 800px)" srcset="/lesson11/images/snow_800.png">
-        <img src="/lesson11/images/snow_1200.png" alt="Soda Springs Sign">
+        <source media="(max-width: 400px)" srcset="/lesson11/images/sodaSprings/small.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson11/images/sodaSprings/medium.jpg">
+        <img src="/lesson11/images/sodaSprings/large.jpg" alt="Preston Farmland">
       </picture>
       <section class="summary">
         <h3>Weather Summary</h3>
@@ -88,53 +93,57 @@
         <div id="temp5"></div>
       </div>
     </div>
-    <section class="townEvents">
-      <h3>Upcoming Town Events</h3>
-      <hr>
-    </section>
-    <div class="articlediv">
+    <div class="article">
+      <h3>Article</h3>
       <picture>
-        <img id="article_img" src="/lesson11/images/after_rain.png" alt="article Image">
+        <source media="(max-width: 400px)" srcset="../lesson10/images/trees400.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson10/images/trees800.jpg">
+        <img id="article_img" src="/lesson10/images/trees1200.jpg" alt="tree Image">
       </picture>
-      <h3>Geyser Park in Soda Springs</h3>
-      <p>Soda Springs is a group of thousands of natural carbonated springs in the area of Soda Springs, Idaho. The
-        springs were a landmark on the Oregon Trail.</p>
 
-      <p>I have visited Geyser Park in Soda Springs many times during my life. I remember coming here when I was very
-        young and being amazed at the geyser and the surrounding orange-ish buildup. Even now I still feel it is a great
-        place to stop.</p>
-
-      <p>Geyser Park is located downtown Soda Springs behind several of the buildings on Main Street. I have always
-        enjoyed coming here, seeing the geyser and then eating in town when visiting.</p>
-
-      <p>The geyser has a very interesting history. Trying to find a hot water source for their planned swimming pool, a
-        drilling company drilled down some 300 ft in November 1937 until they reached a large chamber. Inside this
-        chamber, carbon dioxide gas mixes with the underground water building up pressure which then makes the water
-        shoot out of the drill hole. The geyser can reach heights of around 100 ft. A timer and cap control the geyser
-        so it erupts every half hour, on the hour, year round.--<a
-          href="https://thetrekplanner.com/geyser-park-soda-springs-idaho/">READ MORE at Trek Planner</a></p>
+      <p>BOISE, Idaho — Just looking at the temperatures we've seen in Boise so far this year, we really could
+        call this a "warm winter." Through January and February (so far), there were 8 days with high temps at
+        50° or warmer, and only 5 days with high temps in the 30s. So far this year, only two days had below
+        average high temps.</p>
+      <p>For Tuesday, look for mostly sunny skies (clouds to start, with clearing expected). Treasure Valley high
+        temps will be in the mid 40s. It's a similar story for Wednesday, with valley highs approaching 50° once
+        again.</p>
+      <p>Yes, you read that right, there's a good chance that the Treasure Valley will see some snow accumulation
+        later this week and this weekend. It's an active pattern that continues to bring rounds of moisture in
+        our direction for a few days. High temperatures for the valleys will be in the 30s -- below average, for
+        a change.
+        <a class="source"
+          href="https://www.ktvb.com/article/weather/idaho-weather-forecast-treasure-valley-boise-meridian-nampa-caldwell/277-314988364">KTVB7</a>
+      </p>
     </div>
-    <div class="contactdiv">
-      <a id="map_link"
-        href="https://www.google.com/maps/place/Soda+Springs,+ID+83276/@42.6614075,-111.6237916,13z/data=!3m1!4b1!4m5!3m4!1s0x8755968bb0047ae5:0x9d3970a1a6df8e12!8m2!3d42.6543652!4d-111.6046687">
-        <img id="map" src="/lesson11/images/sodasprings_map.jpg" alt="Soda Springs Map">
-      </a>
-      <div class="contact_info">
-        <h4>Contact Information</h4>
-        <h3>6321 4th Real</h3>
-        <h3>Preston, Idaho 83263</h3>
-        <h3>&#9742; 888-777-9999</h3>
-        <h3>&#9993;contact@weather4real.com</h3>
-      </div>
+
+    <h2 class="events">Upcoming Events</h2>
+    <div class="event"></div>
+
+    <div class="contact">
+
+      <h3>Contact Us</h3>
+      <section class="contactInfo">
+        <div class="address">
+          <h4>Address:</h4>
+          <p>456 Weather 4 Real.<br>
+            Preston, Idaho 83263.</p>
+        </div>
+        <div class="phone">
+          <h4>Phone:</h4>
+          <p>(888) 777-9999</p>
+          <h4>Email:</h4>
+          <p>contact@weather4real.com</p>
+        </div>
+      </section>
+      <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+      </iframe>
     </div>
   </main>
   <footer>
-    <div>
-      &copy;<span id="copyright"></span> | Virgithmar Oakley | North Carolina | <a
-        href="https://www.byui.edu/online">BYU-I Online Learning</a> | <a href="https://openweathermap.org/">Open
-        Weather Map</a>
-    </div>
-    <span id="dates"></span>
+    &copy; <span id="copyright"></span> &bull; Virgithmar Oakley &bull; <a href="https://www.byui.edu/online">BYU-I
+      Online
+      Learning</a> &bull; Last updated <span id="dates"></span>
   </footer>
   <script src="/lesson11/js/sodasprings.js"></script>
   <script src="/lesson11/js/windchill.js"></script>
