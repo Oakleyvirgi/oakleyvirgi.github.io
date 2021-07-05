@@ -152,6 +152,8 @@ footer {
 .message {
     font-style: italic;
     color: white;
+    margin-top: 43px;
+    margin-bottom: 18px;
 }
 
 #copyright {

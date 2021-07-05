@@ -85,6 +85,7 @@ footer {
 
 
 h1 {
+  
   color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -110,6 +111,7 @@ nav ul {
   text-align: left;
   text-decoration: none;
   color: white;
+  padding-right: 15px;
 }
 
 .nav_bar a:hover {
@@ -124,7 +126,7 @@ nav ul {
 .message {
   font-style: italic;
   color: white;
-  margin-top: 18px;
+  margin-top: 43px;
   margin-bottom: 18px;
 }
 
