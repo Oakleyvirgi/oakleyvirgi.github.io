@@ -8,7 +8,6 @@ body {
   background-color: #85ACC0;
   font-size: 18px;
   margin: 0 auto;
-
 }
 
 .headings {
@@ -177,11 +176,13 @@ nav ul li a.active {
   display: block;
   scroll-padding-block-end: 3px;
 }
+
 nav {
   padding-top: .1px;
   padding-bottom: .1px;
   background-color: #79446A;
 }
+
 nav ul {
   list-style: none;
   text-align: center;
