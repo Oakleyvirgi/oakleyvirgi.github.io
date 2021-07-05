@@ -31,14 +31,13 @@ header img {
     width: auto;
 }
 
-.heading h1 {
+/*.heading h1 {
     font-size: 1.8em;
     flex-direction: column;
     font-family: Century-Schoolbook;
     align-items: center;
-}
+}*/
 
-h1,
 h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -53,6 +52,10 @@ p {
 
 h1 {
     width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 3px;
 }
 
 
@@ -154,6 +157,8 @@ footer {
     color: white;
     margin-top: 43px;
     margin-bottom: 17px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 #copyright {
