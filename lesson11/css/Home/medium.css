@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 32.5em) {
   body {
     display: flex;
     flex-direction: column;
@@ -24,23 +24,30 @@
     grid-row: 1;
   }
 
+  .main_location {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+  }
   header img {
     height: 130px;
     width: auto;
     padding-right: 9px;
   }
-  li {
-    display: inline-block;
-  }
+ 
 
   .nav_bar {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
   }
 
   .nav_bar li {
     display: block;
-    padding-right: 20px;
+    padding-right: 15px;
   }
 
   .nav_bar a {

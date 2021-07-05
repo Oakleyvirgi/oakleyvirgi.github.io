@@ -4,18 +4,17 @@
   }
 }
 
-nav a {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  background-color: #79446A;
-}
-
-
 body {
   background-color: #85ACC0;
   font-size: 18px;
   margin: 0 auto;
 
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
 
 .cards {
@@ -69,7 +68,7 @@ header {
   justify-content: left;
   display: flex;
   font-family: 'Roboto', sans-serif;
-  /*padding-bottom: 18px;*/
+  /*padding-bottom: 17px;*/
 }
 
 header img {
@@ -77,7 +76,7 @@ header img {
 }
 
 
-.headings {
+/*.s {
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -92,7 +91,7 @@ header img {
 
 #homeTitle img {
   width: 100%;
-}
+}*/
 
 h1 {
   width: 100%;
@@ -115,7 +114,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: black;
 }
 
@@ -126,9 +125,9 @@ h4 {
   height: fit-content;
 }
 
-/*main {
-  margin: 2%;
-}*/
+main {
+  margin: auto;
+}
 
 .school {
   color: white;
@@ -137,20 +136,83 @@ h4 {
 .message {
   font-style: italic;
   color: white;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
-nav {
-  /*margin: 0 auto;
-  border-radius: 15px;*/
+img {
+  height: 80px;
+  width: auto;
+}
+
+nav a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
   background-color: #79446A;
-
 }
 
+.nav_bar li:first-child {
+  display: block;
+}
+
+.nav_bar li {
+  display: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+nav ul li a.active {
+  background-color: #475766;
+}
+
+.nav_bar {
+  list-style: none;
+  text-align: left;
+}
+
+.responsive li {
+  display: block;
+  scroll-padding-block-end: 3px;
+}
+nav {
+  padding-top: .5px;
+  padding-bottom: .5px;
+  background-color: #79446A;
+}
 nav ul {
   list-style: none;
   text-align: center;
-  /*margin:0;
-  padding-bottom: 18px;*/
+}
+
+.nav_bar a {
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+}
+
+.nav_bar a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+
+/*nav {
+  background-color: #79446A;
+
+}
+nav a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: #79446A;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 18px;
 }
 
 nav ul li a.active {
@@ -189,7 +251,7 @@ li {
 .responsive li {
   display: block;
   scroll-padding-block-end: 3px;
-}
+}*/
 
 p {
   font-family: "Helvetica", sans-serif;
@@ -223,7 +285,7 @@ p {
 
 .main_location {
   color: black;
-  margin-left: 10px;
+  margin-left: 30px;
   text-align: left;
 }
 
