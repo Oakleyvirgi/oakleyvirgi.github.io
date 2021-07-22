@@ -1,0 +1,96 @@
+@media only screen and (min-width: 32.5em) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*#article_img {
+    padding-left: 5px;
+    float: right;
+    width: 35%;
+  }*/
+
+  .cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards section:nth-child(odd) img {
+    grid-column: 1;
+  }
+
+  .cards section:nth-child(odd) #details {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .main_location {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+  }
+
+  header img {
+    height: 130px;
+    width: auto;
+    padding-right: 9px;
+  }
+
+
+  .nav_bar {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .nav_bar li {
+    display: block;
+    padding-right: 15px;
+  }
+
+  .nav_bar a {
+    text-align: left;
+  }
+
+
+  .nav_bar li:first-child {
+    display: none;
+  }
+
+  .contactInfo {
+    display: grid;
+
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .address {
+    grid-row: 2;
+  }
+
+  .phone {
+    grid-row: 2;
+    grid-column: 3;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #map_link {
+    margin: auto;
+  }
+
+  #map {
+    grid-column: 1;
+    grid-row: 1;
+    height: 280px;
+    width: 97%;
+    border: 2px solid black;
+  }
+
+}

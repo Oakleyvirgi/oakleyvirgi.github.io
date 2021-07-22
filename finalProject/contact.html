@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Contact | Chamber of Commerce</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+  content="Final Project for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+<meta name="Author" content="Virgithmar Oakley">
+<link rel="shortcut icon" href="/finalProject/images/iconCommerce.ico">
+  <link rel="stylesheet" href="css/Preston/normalized.css">
+  <link rel="stylesheet" href="css/Preston/small.css">
+  <link rel="stylesheet" href="css/Preston/medium.css">
+  <link rel="stylesheet" href="css/Preston/large.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+</head>
+
+<body>
+  <div id="onlyFriday"></div>
+  <div class="home-flex">
+    <header>
+      <img src="images/logo.png" alt="Burlington Site Logo">
+      <section class="headings">
+        <h1>Burlington Chamber of Commerce</h1>
+        <p class="message">Do business with us!</p>
+      </section>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/finalProject/index.html">Home</a></li>
+        <li><a href="/finalProject/burlington.html">Burlington</a></li>
+        <li><a href="/finalProject/joinUs.html">Join Us</a></li>
+        <li><a href="/finalProject/directory.html">Directory</a></li>
+        <li><a class="active" href="/finalProject/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <h2 class="main_location">Contact</h2>
+    <div class="top_part">
+      <picture>
+        <!--<source media="(max-width: 400px)" srcset="/lesson11/images/fishHaven/small.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson11/images/fishHaven/medium.jpg">-->
+        <img src="/finalProject/images/NC2.jpg" alt="Preston Farmland">
+      </picture>
+      <section class="summary">
+        <h3>Weather Summary</h3>
+        <p>Currently:
+          <span id="currently"></span>
+        </p>
+        <p>Temp:
+          <span id="temp"></span>
+          &#176;F</p>
+        <p>Wind Chill:
+          <span id="windchill"></span>
+        </p>
+        <p>Humidity:
+          <span id="humidity"></span>
+          %</p>
+        <p>Wind Speed:
+          <span id="windspeed"></span>
+          mph</p>
+      </section>
+    </div>
+    <h3 id="forecastTitle">5 Day Forecast</h3>
+    <div class="forecastdiv">
+      <div class="forecasts">
+        <div id="day1"></div>
+        <img src="#" alt="" id="img1">
+        <div id="temp1"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day2"></div>
+        <img src="#" alt="" id="img2">
+        <div id="temp2"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day3"></div>
+        <img src="#" alt="" id="img3">
+        <div id="temp3"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day4"></div>
+        <img src="#" alt="" id="img4">
+        <div id="temp4"></div>
+      </div>
+      <div class="forecasts">
+        <div id="day5"></div>
+        <img src="#" alt="" id="img5">
+        <div id="temp5"></div>
+      </div>
+    </div>
+    <h2>Board of Directors</h2><hr />
+    <h4>President: John Caswell</h4>
+    <h4>Vice President: Anna Johnson</h4>
+    <h4>Vice President Assistant: Louis Bryant</h4>
+
+    <h2 class="events">Upcoming Events</h2>
+    <div class="event"></div>
+
+    <div class="contact">
+
+      <h3>Contact Us</h3>
+      <section class="contactInfo">
+        <div class="address">
+          <h4>Address:</h4>
+          <p>456 Weather 4 Real.<br>
+            Burlington, NC 83263.</p>
+        </div>
+        <div class="phone">
+          <h4>Phone:</h4>
+          <p>(888) 777-9999</p>
+          <h4>Email:</h4>
+          <p>contact@burlingtonnc.com</p>
+        </div>
+      </section>
+      <iframe id="map" src="https://maps.google.com/maps?q=Burlington%20&t=&z=13&ie=UTF8&iwloc=&output=embed">
+      </iframe>
+    </div>
+  </main>
+  <footer>
+    &copy; <span id="copyright"></span> &bull; Virgithmar Oakley &bull; <a href="https://www.byui.edu/online">BYU-I
+      Online
+      Learning</a> &bull; Last updated <span id="dates"></span>
+    
+    <a href="https://www.facebook.com/" target="_blank"><img class="" src="images/facebook.png" alt="Facebook"/></a>
+    <a href="https://youtube.com/" target="_blank"><img class="" src="images/youtube.png" alt="Youtube" /></a>
+    <a href="https://www.instagram.com/" target="_blank"><img class="" src="images/instagram.png"
+        alt="Instagram" /></a>
+  </footer>
+  <script src="/finalProject/js/fishheaven.js"></script>
+  <script src="/finalProject/js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+  </script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Fira Sans', 'Titillium Web']
+      }
+    });
+  </script>
+</body>
+
+</html>

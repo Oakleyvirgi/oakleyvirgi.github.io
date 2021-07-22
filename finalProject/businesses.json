@@ -1,0 +1,59 @@
+{
+  "businesses": [{
+      "name": "LabCorp",
+      "image": "images/labcorp.jpg",
+      "url": "https://www.labcorp.com/",
+      "address": "531 S Spring St, Burlington, NC 27215",
+      "number": "(336) 229-1127",
+      "id": 1
+    },
+    {
+      "name": "National Agents Alliance",
+      "image": "images/alliance.jpg",
+      "url": "https://www.naaleads.com/",
+      "address": "1214 Turrentine St, Burlington, NC 27215",
+      "number": "(910) 390-6086",
+      "id": 2
+    },
+    {
+      "name": "Cross Country Nurses",
+      "image": "images/cross.jpg",
+      "url": "https://www.crosscountrynurses.com",
+      "address": "6551 Park of Commerce Blvd. Boca Raton, FL 33487",
+      "number": "800.530.6125",
+      "id": 3
+    },
+    {
+      "name": "Jabil Mebane",
+      "image": "images/jabil.jpg",
+      "url": "https://www.jabil.com/contact/locations/mebane.html",
+      "address": "1018 Corporate Park Dr, Mebane, NC 27302",
+      "number": "(919) 304-1400",
+      "id": 4
+    },
+    {
+      "name": "Transplace",
+      "image": "images/Transplace.jpg",
+      "url": "https://www.transplace.com/",
+      "address": "333 N Greene St STE 100, Greensboro, NC 27401",
+      "number": "(877) 369-0343",
+      "id": 5
+    },
+    {
+      "name": "May Memorial Library",
+      "image": "images/library.jpg",
+      "url": "https://www.alamance-nc.com/library/",
+      "address": "342 S Spring St, Burlington, NC 27215",
+      "number": "(336) 229-3588",
+      "id": 6
+    },
+    {
+      "name": "Ashley HomeStore",
+      "image": "images/ashley.jpg",
+      "url": "https://www.ashleyfurniture.com/c/furniture/",
+      "address": "1439 University Dr, Burlington, NC 27215",
+      "number": "(336) 395-0040",
+      "id": 7
+    }
+  ]
+}

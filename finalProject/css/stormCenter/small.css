@@ -1,0 +1,208 @@
+@media only screen and (max-width: 639px) {
+  body {
+    flex-direction: row;
+  }
+}
+
+.home-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: white;
+  justify-content: left;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+
+header img {
+  margin-left: 25px;
+  margin-top: 1%;
+}
+
+
+
+nav a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: #bd1717;
+}
+
+.nav_bar li:first-child {
+  display: block;
+}
+
+.nav_bar li {
+  display: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+nav ul li a.active {
+  background-color: #475766;
+}
+
+.nav_bar {
+  list-style: none;
+  text-align: left;
+}
+
+.responsive li {
+  display: block;
+  scroll-padding-block-end: 3px;
+}
+
+nav {
+  background-color: #bd1717;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  background-color: #bd1717;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+h1 {
+  width: 100%;
+  color: rgb(31, 10, 10);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+p {
+  font-family: "Helvetica", sans-serif;
+  color: rgb(31, 10, 10);
+}
+
+main {
+  margin: 2%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+
+.nav_bar a {
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+}
+
+.nav_bar a:hover {
+  color: white;
+  background-color: black;
+}
+
+.school {
+  color: white;
+}
+
+.message {
+  font-style: italic;
+  color: black;
+  margin-top: 43px;
+  margin-bottom: 17px;
+}
+
+#copyright {
+  font-family: "Helvetica", sans-serif;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+
+form label.top,
+form label.info,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: .8rem;
+}
+
+form label.info input:required {
+  border-left: red solid 6px;
+}
+
+form label.info input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label.top input,
+form label.info input,
+form label.storm select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #000;
+  border-radius: 4px;
+  padding: .5rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #ffffff;
+
+}
+
+form label.radios {
+  display: block;
+  padding-top: 1em;
+}
+
+form label.storm {
+  display: block;
+  padding: .75rem 0;
+  color: black;
+
+
+}
+
+form input.submit_button {
+  border: none;
+  background-color: #475766;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 2rem 5%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+#comments {
+  height: 85px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}

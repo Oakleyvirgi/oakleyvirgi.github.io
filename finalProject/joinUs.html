@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Join Us | Chamber of Commerce</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Final Project for Brother Cheney in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <meta name="Author" content="Virgithmar Oakley">
+  <link rel="shortcut icon" href="/finalProject/images/iconCommerce.ico">
+  <link rel="stylesheet" href="/finalProject/css/stormCenter/normalize.css">
+  <link rel="stylesheet" href="/finalProject/css/stormCenter/small.css">
+  <link rel="stylesheet" href="/finalProject/css/stormCenter/medium.css">
+  <link rel="stylesheet" href="/finalProject/css/stormCenter/large.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+</head>
+
+<body>
+    <div class="home-flex">
+      <header>
+        <img src="images/logo.png" alt="Burlington Site Logo">
+        <section class="headings">
+          <h1>Burlington Chamber of Commerce</h1>
+          <p class="message">Do business with us!</p>
+        </section>
+      </header>
+      <nav>
+        <ul class="nav_bar">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="/finalProject/index.html">Home</a></li>
+          <li><a href="/finalProject/burlington.html">Burlington</a></li>
+          <li><a class="active" href="/finalProject/joinUs.html">Join Us</a></li>
+          <li><a href="/finalProject/directory.html">Directory</a></li>
+          <li><a href="/finalProject/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <h2>Join Us!</h2>
+      <form method="GET" action="thanks.html">
+        <fieldset>
+          <legend>Your Information</legend>
+          <label class="info">
+            *First Name: <input type="text" name="fullname" title="Please have at least 3 letters entered"
+              pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+          </label>
+          <label class="info">
+            *Last Name: <input type="text" name="fullname" title="Please have at least 3 letters entered"
+              pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+          </label>
+          <label class="info">
+            Title: <input type="text" name="fullname" title="Please have at least 3 letters entered"
+              pattern="^[a-zA-Z\s\-\.]{3,}$">
+          </label>
+          <label class="info">
+            *Email: <input type="email" name="email" placeholder="info@storm.com" required>
+          </label>
+          <label class="info">
+            Cell Phone: <input type="tel" name="phone" title="Please write 10 numbers or more"
+              placeholder="123-456-7890">
+          </label>
+          <label class="info">
+            *Business Name: <input type="text" name="fullname" title="Please have at least 3 letters entered"
+              pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+          </label>
+          <label class="info">
+            Business Address: <input type="text" name="fullname" title="Please have at least 3 letters entered"
+              pattern="^[a-zA-Z\s\-\.]{3,}$">
+          </label>
+          <label class="info">
+            Business Website: <input type="text" name="fullname" title="Please have at least 3 letters entered"
+              pattern="^[a-zA-Z\s\-\.]{3,}$">
+          </label>
+          <label class="top">Business Description:<br>
+            <textarea name="comments" id="comments">
+                </textarea></label>
+        </fieldset>
+
+        <fieldset>
+
+          <legend>Membership Level</legend>
+
+          <label class="radios"><input type="radio" name="user_level" value="yes">
+            <span class="option">Non-profit ($100)</span>
+          </label>
+          <label class="radios"><input type="radio" name="user_level" value="maybe">
+            <span class="option">Bronze ($200)</span>
+          </label>
+          <label class="radios"><input type="radio" name="user_level" value="no">
+            <span class="option">Silver ($400)</span>
+          </label>
+          <label class="radios"><input type="radio" name="user_level" value="no">
+            <span class="option">Gold ($1000)</span>
+          </label><br>
+
+          <input class="submit_button" type="submit" value="Submit Application">
+
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      &copy; <span id="copyright"></span> &bull; Virgithmar Oakley &bull; <a href="https://www.byui.edu/online">BYU-I
+        Online
+        Learning</a> &bull; Last updated <span id="dates"></span>
+
+      <a href="https://www.facebook.com/" target="_blank"><img class="" src="images/facebook.png" alt="Facebook" /></a>
+      <a href="https://youtube.com/" target="_blank"><img class="" src="images/youtube.png" alt="Youtube" /></a>
+      <a href="https://www.instagram.com/" target="_blank"><img class="" src="images/instagram.png"
+          alt="Instagram" /></a>
+    </footer>
+    <script src="/finalProject/js/scriptStorm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Fira Sans', 'Titillium Web']
+        }
+      });
+    </script>
+</body>
+
+</html>
