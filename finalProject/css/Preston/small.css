@@ -67,6 +67,10 @@
   .article img {
     max-width: 100%;
   }
+  
+  header img {
+    height: 80px;
+  }
 
 }
 
@@ -98,6 +102,7 @@ header {
 header img {
   margin-left: 25px;
   margin-top: 1%;
+
 }
 
 h2 {
