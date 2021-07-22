@@ -1,3 +1,7 @@
+function toggleMenu() {
+  document.getElementsByClassName("nav_bar")[0].classList.toggle("responsive");
+}
+
 console.log("hello");
 
 async function displayBusinesses() {
@@ -25,9 +29,6 @@ async function displayBusinesses() {
 
   document.getElementById("businesses").innerHTML = businessesHtml;
 
-  function toggleMenu() {
-    document.getElementsByClassName("nav_bar")[0].classList.toggle("responsive");
-  }
 }
 
 displayBusinesses();
